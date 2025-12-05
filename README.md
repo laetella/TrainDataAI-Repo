@@ -5,6 +5,16 @@
 2. 针对给定需求，生成基于本地代码仓架构的设计方案，并提供解释和推理trace。
 
 get data 
-python code/repository_crawler.py
+python3 code/repository_crawler.py
+
+### 创建环境
+
+# Create virtual environment
+python3 -m venv traindata_env
+
+# Activate it (macOS/Linux)
+source traindata_env/bin/activate
 
 Requirements:
+
+python3 -m pip install pyyaml
