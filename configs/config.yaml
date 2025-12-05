@@ -1,0 +1,5 @@
+# configs/config.yaml
+github:
+  token: "ghp_your_github_token"  # 在GitHub生成fine-grained token
+crawl_repos:
+  - "tensorflow/tensorflow"
