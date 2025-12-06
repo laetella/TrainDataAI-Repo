@@ -5,10 +5,11 @@ import sys
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 from typing import List, Dict, Any, Optional
+from datetime import datetime
 
 # 配置文件路径常量
 CONFIG_PATH = '../configs/config.yaml'
-OUTPUT_DIR = '../data/raw_data/repos'
+OUTPUT_DIR = '../data2/raw_data/repos'
 
 def load_config(config_path: str) -> Dict[str, Any]:
     """加载配置文件并验证结构"""
@@ -57,7 +58,7 @@ def get_github_repo(repo_url: str, token: str) -> Dict[str, Any]:
     except URLError as e:
         raise Exception(f"Network error: {e.reason}")
 
-def get_repo_files(repo_owner: str, repo_name: str, token: str, path: str = '') -> List[Dict[str, Any]]:
+def get_repo_files(repo_owner: str, repo_name: str, token: str, path: str, output_file)-> None :
     """递归获取仓库所有文件列表（含分页处理）"""
     url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{path}'
     files = []
@@ -66,23 +67,35 @@ def get_repo_files(repo_owner: str, repo_name: str, token: str, path: str = '') 
         request = Request(url)
         request.add_header('Authorization', f'token {token}')
         request.add_header('User-Agent', 'ERNIE-X1.1')
+        request.add_header('Accept', 'application/vnd.github.v3+json')
         
         try:
             with urlopen(request) as response:
                 if response.status != 200:
                     break
-                    
                 data = json.loads(response.read().decode())
+                print("get repo data: ", data[0])
                 for item in data:
                     if item['type'] == 'file':
-                        files.append({
+                        # 立即写入当前文件信息
+                        json_line = json.dumps({
                             'path': item['path'],
                             'download_url': item['download_url'],
                             'size': item['size']
-                        })
+                        }, ensure_ascii=False)
+                        output_file.write(json_line + '\n')
+                        
+                        # files.append({
+                        #     'path': item['path'],
+                        #     'download_url': item['download_url'],
+                        #     'size': item['size']
+                        # })
                     elif item['type'] == 'dir':
-                        subdir_files = get_repo_files(repo_owner, repo_name, token, item['path'])
-                        files.extend(subdir_files)
+                        # 递归处理子目录（传递已打开的文件句柄）
+                        get_repo_files(repo_owner, repo_name, token, item['path'], output_file)
+                
+                        # subdir_files = get_repo_files(repo_owner, repo_name, token, item['path'])
+                        # files.extend(subdir_files)
                 
                 # 处理分页
                 link_header = response.headers.get('Link', '')
@@ -141,13 +154,27 @@ def main():
                 # 获取仓库基本信息
                 repo_info = get_github_repo(repo_url, token)
                 print(f"  Fetched repo info: {repo_info['html_url']}")
+                """保存爬取结果到JSON文件"""
+                os.makedirs(OUTPUT_DIR, exist_ok=True)
+                output_path = os.path.join(OUTPUT_DIR, f'{owner}_{repo_name}.json')
+                # 写入仓库元数据头
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    metadata = {
+                        'repo_info': repo_info,
+                        'crawl_timestamp': datetime.now().isoformat()
+                    }
+                    f.write(json.dumps(metadata, ensure_ascii=False) + '\n')
                 
-                # 获取文件列表
-                files = get_repo_files(owner, repo_name, token)
-                print(f"  Found {len(files)} files")
+                # 递归获取并追加文件数据
+                with open(output_path, 'a', encoding='utf-8') as f:  # 追加模式
+                    get_repo_files(owner, repo_name, token, '', f)
+    
+                # # 获取文件列表
+                # files = get_repo_files(owner, repo_name, token)
+                # print(f"  Found {len(files)} files")
                 
-                # 保存结果
-                save_crawl_result(owner, repo_name, repo_info, files)
+                # # 保存结果
+                # save_crawl_result(owner, repo_name, repo_info, files)
                 
             except Exception as e:
                 print(f"  Error processing {repo_name}: {str(e)}")
@@ -160,5 +187,4 @@ def main():
         sys.exit(1)
 
 if __name__ == '__main__':
-    import datetime
     main()
