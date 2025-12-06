@@ -20,7 +20,7 @@ from repository_crawler import (
 class TestRepositoryCrawler(unittest.TestCase):
     VALID_CONFIG = """
                 github:
-                token: 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
+                token: token
                 crawl_repos:
                 - baidu/ERNIE-X1
                 - tensorflow/tensorflow
