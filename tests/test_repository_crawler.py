@@ -5,6 +5,7 @@ from unittest.mock import patch, MagicMock, mock_open
 import os
 import json
 import yaml
+from requests.exceptions import HTTPError
 import sys
 sys.path.append('../code')
 
@@ -18,12 +19,12 @@ from repository_crawler import (
 
 class TestRepositoryCrawler(unittest.TestCase):
     VALID_CONFIG = """
-github:
-  token: ghp_test_token
-crawl_repos:
-  - baidu/ERNIE-X1
-  - tensorflow/tensorflow
-"""
+                github:
+                token: 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
+                crawl_repos:
+                - baidu/ERNIE-X1
+                - tensorflow/tensorflow
+                """
     INVALID_CONFIG = "invalid_yaml"
     CONFIG_PATH = "test_config.yaml"
     OUTPUT_DIR = "test_output"
