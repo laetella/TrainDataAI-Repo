@@ -1,5 +1,5 @@
 # configs/config.yaml
 github:
-  token: "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"  # 在GitHub生成fine-grained token
+  token: "token"  # 在GitHub生成fine-grained token
 crawl_repos:
   - "tensorflow/tensorflow"
