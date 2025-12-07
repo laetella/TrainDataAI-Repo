@@ -118,7 +118,7 @@ def get_repo_files(repo_owner: str, repo_name: str, token: str, path: str, outpu
 def save_crawl_result(owner: str, repo_name: str, repo_info: Dict, files: List) -> None:
     """保存爬取结果到JSON文件"""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    output_path = os.path.join(OUTPUT_DIR, f'{owner}_{repo_name}.json')
+    output_path = os.path.join(OUTPUT_DIR, f'{owner}', f'{repo_name}.json')
     
     result = {
         'repo_info': repo_info,
@@ -130,7 +130,7 @@ def save_crawl_result(owner: str, repo_name: str, repo_info: Dict, files: List) 
         json.dump(result, f, indent=2)
     print(f"Saved {len(files)} files for {repo_name}")
 
-def main():
+def get_repo_urls():
     print("Starting GitHub repository crawler...\n")
     print(f"Using config: {CONFIG_PATH}\n")
     
@@ -156,7 +156,7 @@ def main():
                 print(f"  Fetched repo info: {repo_info['html_url']}")
                 """保存爬取结果到JSON文件"""
                 os.makedirs(OUTPUT_DIR, exist_ok=True)
-                output_path = os.path.join(OUTPUT_DIR, f'{owner}_{repo_name}.json')
+                output_path = os.path.join(OUTPUT_DIR, f'{owner}', f'{repo_name}.json')
                 # 写入仓库元数据头
                 with open(output_path, 'w', encoding='utf-8') as f:
                     metadata = {
@@ -187,4 +187,6 @@ def main():
         sys.exit(1)
 
 if __name__ == '__main__':
-    main()
+    # step 1 ： get repo url
+    get_repo_urls()
+    
