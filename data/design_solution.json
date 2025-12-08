@@ -1,0 +1,178 @@
+[
+  {
+    "requirement": "为系统添加实时通知功能",
+    "design_pattern": "CRUD操作",
+    "description": "实现创建、读取、更新、删除操作的标准模式",
+    "components": [
+      {
+        "name": "Controller",
+        "responsibility": "负责controller相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Service",
+        "responsibility": "负责service相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Repository",
+        "responsibility": "负责repository相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Model",
+        "responsibility": "负责model相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      }
+    ],
+    "implementation_steps": [
+      "1. 分析现有代码结构，确定CRUD操作模式的适配点",
+      "2. 设计CRUD操作模式的组件接口",
+      "3. 实现CRUD操作模式的核心组件",
+      "4. 编写单元测试确保功能正确性",
+      "5. 集成到现有系统并进行端到端测试",
+      "6. 编写使用文档和API文档"
+    ],
+    "integration_points": [
+      "与现有的数据模型集成",
+      "与业务逻辑层集成",
+      "与API接口层集成"
+    ]
+  },
+  {
+    "requirement": "需要添加用户管理功能，支持增删改查",
+    "design_pattern": "CRUD操作",
+    "description": "实现创建、读取、更新、删除操作的标准模式",
+    "components": [
+      {
+        "name": "Controller",
+        "responsibility": "负责controller相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Service",
+        "responsibility": "负责service相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Repository",
+        "responsibility": "负责repository相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Model",
+        "responsibility": "负责model相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      }
+    ],
+    "implementation_steps": [
+      "1. 分析现有代码结构，确定CRUD操作模式的适配点",
+      "2. 设计CRUD操作模式的组件接口",
+      "3. 实现CRUD操作模式的核心组件",
+      "4. 编写单元测试确保功能正确性",
+      "5. 集成到现有系统并进行端到端测试",
+      "6. 编写使用文档和API文档"
+    ],
+    "integration_points": [
+      "与现有的数据模型集成",
+      "与业务逻辑层集成",
+      "与API接口层集成"
+    ]
+  },
+  {
+    "requirement": "要实现文件上传和下载功能",
+    "design_pattern": "CRUD操作",
+    "description": "实现创建、读取、更新、删除操作的标准模式",
+    "components": [
+      {
+        "name": "Controller",
+        "responsibility": "负责controller相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Service",
+        "responsibility": "负责service相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Repository",
+        "responsibility": "负责repository相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Model",
+        "responsibility": "负责model相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      }
+    ],
+    "implementation_steps": [
+      "1. 分析现有代码结构，确定CRUD操作模式的适配点",
+      "2. 设计CRUD操作模式的组件接口",
+      "3. 实现CRUD操作模式的核心组件",
+      "4. 编写单元测试确保功能正确性",
+      "5. 集成到现有系统并进行端到端测试",
+      "6. 编写使用文档和API文档"
+    ],
+    "integration_points": [
+      "与现有的数据模型集成",
+      "与业务逻辑层集成",
+      "与API接口层集成"
+    ]
+  },
+  {
+    "requirement": "需要优化系统的查询性能",
+    "design_pattern": "CRUD操作",
+    "description": "实现创建、读取、更新、删除操作的标准模式",
+    "components": [
+      {
+        "name": "Controller",
+        "responsibility": "负责controller相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Service",
+        "responsibility": "负责service相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Repository",
+        "responsibility": "负责repository相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      },
+      {
+        "name": "Model",
+        "responsibility": "负责model相关逻辑",
+        "implementation": "需要新开发",
+        "status": "new"
+      }
+    ],
+    "implementation_steps": [
+      "1. 分析现有代码结构，确定CRUD操作模式的适配点",
+      "2. 设计CRUD操作模式的组件接口",
+      "3. 实现CRUD操作模式的核心组件",
+      "4. 编写单元测试确保功能正确性",
+      "5. 集成到现有系统并进行端到端测试",
+      "6. 编写使用文档和API文档"
+    ],
+    "integration_points": [
+      "与现有的数据模型集成",
+      "与业务逻辑层集成",
+      "与API接口层集成"
+    ]
+  }
+]
