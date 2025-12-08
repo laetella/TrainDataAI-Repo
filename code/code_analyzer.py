@@ -110,6 +110,7 @@ def analyze_python_code(content: str) -> List[Dict[str, Any]]:
                     'lineno': node.lineno,
                     'docstring': ast.get_docstring(node),
                     'is_async': isinstance(node, ast.AsyncFunctionDef),
+                    'code_snippet': content
                 }
                 functions.append(func_info)
                 
@@ -124,6 +125,7 @@ def analyze_python_code(content: str) -> List[Dict[str, Any]]:
                             'lineno': subnode.lineno,
                             'docstring': ast.get_docstring(subnode),
                             'is_async': isinstance(subnode, ast.AsyncFunctionDef),
+                            'code_snippet': content
                         }
                         functions.append(func_info)
     except SyntaxError:
@@ -154,6 +156,7 @@ def analyze_javascript_code(content: str) -> List[Dict[str, Any]]:
                 'params': params,
                 'lineno': content[:match.start()].count('\n') + 1,
                 'docstring': None,
+                'code_snippet': content
             }
             functions.append(func_info)
     
@@ -190,6 +193,7 @@ def analyze_java_code(content: str) -> List[Dict[str, Any]]:
             'return_type': return_type,
             'lineno': content[:match.start()].count('\n') + 1,
             'docstring': extract_java_docstring(content, match.start()),
+            'code_snippet': content
         }
         functions.append(func_info)
     
@@ -225,6 +229,7 @@ def analyze_cpp_code(content: str) -> List[Dict[str, Any]]:
             'return_type': return_type,
             'lineno': content[:match.start()].count('\n') + 1,
             'docstring': extract_cpp_docstring(content, match.start()),
+            'code_snippet': content
         }
         functions.append(func_info)
     
@@ -303,6 +308,7 @@ def analyze_generic_code(content: str) -> List[Dict[str, Any]]:
             'params': params,
             'lineno': content[:match.start()].count('\n') + 1,
             'docstring': None,
+            'code_snippet': content
         }
         functions.append(func_info)
     
@@ -329,6 +335,7 @@ def analyze_code_file(file_path: str) -> List[Dict[str, Any]]:
             func['file'] = os.path.basename(file_path)
             func['file_path'] = file_path
             func['language'] = language
+            func['code_snippet'] = content
         
         return functions
         
@@ -400,6 +407,7 @@ def analyze_golang_code(content: str) -> List[Dict[str, Any]]:
             'return_type': return_type,
             'lineno': content[:match.start()].count('\n') + 1,
             'docstring': None,
+            'code_snippet': content
         }
         functions.append(func_info)
     
@@ -434,6 +442,7 @@ def analyze_rust_code(content: str) -> List[Dict[str, Any]]:
             'return_type': return_type,
             'lineno': content[:match.start()].count('\n') + 1,
             'docstring': None,
+            'code_snippet': content
         }
         functions.append(func_info)
     

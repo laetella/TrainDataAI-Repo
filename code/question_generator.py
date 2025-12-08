@@ -688,10 +688,10 @@ class QAPairGenerator:
         code_context['parameter']= params
         
         # 1. 函数目的问答
-        for template in self.qa_templates['function_purpose']:
-            question = template.format(function_name=func_name)
-            qa_list = self._generate_function_purpose_answer(func, code_context)
-            qa_pairs.extend(qa_list)
+        # for template in self.qa_templates['function_purpose']:
+            # question = template.format(function_name=func_name)
+        qa_list = self._generate_function_purpose_answer(func, code_context)
+        qa_pairs.extend(qa_list)
             # qa_pairs.append({
             #     'question': question,
             #     'answer': answer,
@@ -767,7 +767,7 @@ class QAPairGenerator:
         qa_list = []
         func_name = func.get('name', '未知函数')
         
-        for template in self.qa_templates['function_purpose'][:2]:  # 最多2种问法
+        for template in self.qa_templates['function_purpose']:  # 最多2种问法
             question = template.format(function_name=func_name)
             
             # 生成答案
@@ -785,13 +785,14 @@ class QAPairGenerator:
                 'file': func.get('file', '未知'),
                 'language': func.get('language', '未知'),
                 'code_context': code_context,
+                'code_snippet': func.get('code_snippet', "null"),
                 'reasoning': reasoning,
                 'difficulty': 'easy',
                 'generated_at': datetime.now().isoformat()
             }
             
             qa_list.append(qa_pair)
-        
+            # print("qa list size: ", len(qa_list))
         return qa_list
         # func_name = func.get('name', '')
         # params = func.get('params', [])
@@ -828,6 +829,7 @@ class QAPairGenerator:
                 'file': func_info.get('file', '未知'),
                 'language': func_info.get('language', '未知'),
                 'code_context': code_context,
+                'code_snippet': func_info.get('code_snippet', "null"),
                 'reasoning': reasoning,
                 'difficulty': 'medium',
                 'generated_at': datetime.now().isoformat()
@@ -860,6 +862,7 @@ class QAPairGenerator:
                 'file': func_info.get('file', '未知'),
                 'language': func_info.get('language', '未知'),
                 'code_context': code_context,
+                'code_snippet': func_info.get('code_snippet', "null"),
                 'reasoning': reasoning,
                 'difficulty': 'medium',
                 'generated_at': datetime.now().isoformat()
