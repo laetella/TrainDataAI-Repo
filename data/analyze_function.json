@@ -10,8 +10,7 @@
     "docstring": null,
     "file": "tf_datatype.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_datatype.cc"
-  }
-][
+  },
   {
     "name": "GetCompilationDeviceTypeAndPjRtClient",
     "language": "cpp",
@@ -111,8 +110,7 @@
     "docstring": null,
     "file": "xla_platform_info.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_platform_info.cc"
-  }
-][
+  },
   {
     "name": "RestoreVarsAndVerify",
     "language": "cpp",
@@ -125,8 +123,7 @@
     "docstring": null,
     "file": "bundle_v2_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/bundle_v2_test.cc"
-  }
-][
+  },
   {
     "name": "MatMulFunction",
     "language": "cpp",
@@ -179,8 +176,7 @@
     "docstring": null,
     "file": "c_api_remote_test_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_remote_test_util.cc"
-  }
-][
+  },
   {
     "name": "AddSign",
     "language": "cpp",
@@ -230,8 +226,7 @@
     "docstring": null,
     "file": "folders.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/folders.cc"
-  }
-][
+  },
   {
     "name": "func",
     "language": "c",
@@ -261,8 +256,7 @@
     "docstring": null,
     "file": "cleanup.h",
     "file_path": "../data2/raw_data/repos/tensorflow/cleanup.h"
-  }
-][
+  },
   {
     "name": "GetOperatorOptionName",
     "language": "cpp",
@@ -457,8 +451,7 @@
     "docstring": null,
     "file": "converter_gen.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/converter_gen.cc"
-  }
-][
+  },
   {
     "name": "ParseSerializedTFLOpAttributes",
     "language": "cpp",
@@ -498,8 +491,7 @@
     "docstring": null,
     "file": "custom_call.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/custom_call.cc"
-  }
-][
+  },
   {
     "name": "IsEmpty",
     "language": "c",
@@ -547,8 +539,7 @@
     "docstring": null,
     "file": "tfl_quantization_driver.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tfl_quantization_driver.h"
-  }
-][
+  },
   {
     "name": "tfrun",
     "language": "shell",
@@ -566,8 +557,7 @@
     "docstring": null,
     "file": "setup.sh",
     "file_path": "../data2/raw_data/repos/tensorflow/setup.sh"
-  }
-][
+  },
   {
     "name": "EnsureAttribute",
     "language": "c",
@@ -581,8 +571,7 @@
     "docstring": null,
     "file": "composite_utils.h",
     "file_path": "../data2/raw_data/repos/tensorflow/composite_utils.h"
-  }
-][
+  },
   {
     "name": "IsSupportedComposite",
     "language": "cpp",
@@ -646,8 +635,7 @@
     "docstring": null,
     "file": "legalize_stablehlo_composite_to_tfl_custom.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_stablehlo_composite_to_tfl_custom.cc"
-  }
-][
+  },
   {
     "name": "CreateRuntimeMetadata",
     "language": "cpp",
@@ -670,8 +658,7 @@
     "docstring": "Copyright 2020 The TensorFlow Authors. All Rights Reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");",
     "file": "execution_metadata_exporter_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/execution_metadata_exporter_test.cc"
-  }
-][
+  },
   {
     "name": "RegisterGradients",
     "language": "c",
@@ -683,8 +670,7 @@
     "docstring": null,
     "file": "gradients.h",
     "file_path": "../data2/raw_data/repos/tensorflow/gradients.h"
-  }
-][
+  },
   {
     "name": "AreDilationsSupported",
     "language": "cpp",
@@ -867,8 +853,7 @@
     "docstring": null,
     "file": "reduce_window.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/reduce_window.cc"
-  }
-][
+  },
   {
     "name": "RunAutoClusteringTestWithPbtxt",
     "language": "cpp",
@@ -917,8 +902,7 @@
     "docstring": null,
     "file": "auto_clustering_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/auto_clustering_test.cc"
-  }
-][
+  },
   {
     "name": "DefaultValue",
     "language": "cpp",
@@ -999,8 +983,7 @@
     "docstring": null,
     "file": "cc_op_fuzz_gen.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cc_op_fuzz_gen.cc"
-  }
-][
+  },
   {
     "name": "RunPropagationAndRewriteQuantizationPasses",
     "language": "c",
@@ -1040,8 +1023,7 @@
     "docstring": null,
     "file": "quantization_config.h",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_config.h"
-  }
-][
+  },
   {
     "name": "LoadBasicModel",
     "language": "cpp",
@@ -1171,8 +1153,7 @@
     "docstring": null,
     "file": "quantize_weights_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantize_weights_test.cc"
-  }
-][
+  },
   {
     "name": "XLATypeToCpp",
     "language": "cpp",
@@ -1460,8 +1441,7 @@
     "docstring": null,
     "file": "codegen.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/codegen.cc"
-  }
-][
+  },
   {
     "name": "ConvertToI32Attr",
     "language": "cpp",
@@ -1520,8 +1500,7 @@
     "docstring": null,
     "file": "device_transform_patterns.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_transform_patterns.cc"
-  }
-][
+  },
   {
     "name": "RegisterTracingEngineFactory",
     "language": "cpp",
@@ -1732,8 +1711,7 @@
     "docstring": null,
     "file": "c_api_unified_experimental.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_unified_experimental.cc"
-  }
-][
+  },
   {
     "name": "AddModel",
     "language": "cpp",
@@ -1865,8 +1843,7 @@
     "docstring": null,
     "file": "math_grad_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/math_grad_test.cc"
-  }
-][
+  },
   {
     "name": "IsInPlaceOp",
     "language": "cpp",
@@ -1878,8 +1855,7 @@
     "docstring": null,
     "file": "clone_constants_for_better_clustering.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/clone_constants_for_better_clustering.cc"
-  }
-][
+  },
   {
     "name": "IsNonConstOp",
     "language": "c",
@@ -1939,8 +1915,7 @@
     "docstring": null,
     "file": "utils.h",
     "file_path": "../data2/raw_data/repos/tensorflow/utils.h"
-  }
-][
+  },
   {
     "name": "TestTensorHandleWithDims",
     "language": "c",
@@ -1970,8 +1945,7 @@
     "docstring": null,
     "file": "unified_api_testutil.h",
     "file_path": "../data2/raw_data/repos/tensorflow/unified_api_testutil.h"
-  }
-][
+  },
   {
     "name": "for",
     "language": "cpp",
@@ -2081,8 +2055,7 @@
     "docstring": null,
     "file": "parallel_device.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/parallel_device.cc"
-  }
-][
+  },
   {
     "name": "single_use_scope",
     "language": "c",
@@ -2092,8 +2065,7 @@
     "docstring": null,
     "file": "scope_internal.h",
     "file_path": "../data2/raw_data/repos/tensorflow/scope_internal.h"
-  }
-][
+  },
   {
     "name": "UsePjRtForSingleDeviceCompilation",
     "language": "cpp",
@@ -2129,8 +2101,7 @@
     "docstring": null,
     "file": "xla_compile_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_compile_util.cc"
-  }
-][
+  },
   {
     "name": "IsCpuGpuCompile",
     "language": "cpp",
@@ -2222,8 +2193,7 @@
     "docstring": null,
     "file": "encapsulate_xla_computations_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/encapsulate_xla_computations_pass.cc"
-  }
-][
+  },
   {
     "name": "IsSupportedRfftOp",
     "language": "cpp",
@@ -2289,8 +2259,7 @@
     "docstring": null,
     "file": "fft.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/fft.cc"
-  }
-][
+  },
   {
     "name": "RegisterDialects",
     "language": "cpp",
@@ -2312,8 +2281,7 @@
     "docstring": null,
     "file": "model_utils_core_pybind.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/model_utils_core_pybind.cc"
-  }
-][
+  },
   {
     "name": "GetOperatorVariant",
     "language": "cpp",
@@ -2367,8 +2335,7 @@
     "docstring": null,
     "file": "operator_property.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/operator_property.cc"
-  }
-][
+  },
   {
     "name": "CheckpointPrefix",
     "language": "cpp",
@@ -2393,8 +2360,7 @@
     "docstring": null,
     "file": "restore_ops_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/restore_ops_test.cc"
-  }
-][
+  },
   {
     "name": "usage",
     "language": "shell",
@@ -2403,8 +2369,7 @@
     "docstring": null,
     "file": "generate-pc.sh",
     "file_path": "../data2/raw_data/repos/tensorflow/generate-pc.sh"
-  }
-][
+  },
   {
     "name": "classof",
     "language": "c",
@@ -2416,8 +2381,7 @@
     "docstring": null,
     "file": "tape_context.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tape_context.h"
-  }
-][
+  },
   {
     "name": "IdentityNModel",
     "language": "cpp",
@@ -2451,8 +2415,7 @@
     "docstring": null,
     "file": "array_grad_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/array_grad_test.cc"
-  }
-][
+  },
   {
     "name": "create_device",
     "language": "c",
@@ -2492,8 +2455,7 @@
     "docstring": null,
     "file": "stream_executor.h",
     "file_path": "../data2/raw_data/repos/tensorflow/stream_executor.h"
-  }
-][
+  },
   {
     "name": "GetNumDims",
     "language": "cpp",
@@ -2535,8 +2497,7 @@
     "docstring": null,
     "file": "op_signature.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/op_signature.cc"
-  }
-][
+  },
   {
     "name": "GetTransferredTensorBytes",
     "language": "cpp",
@@ -2642,8 +2603,7 @@
     "docstring": null,
     "file": "cost_model.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cost_model.cc"
-  }
-][
+  },
   {
     "name": "InitializeTmpDir",
     "language": "cpp",
@@ -2765,8 +2725,7 @@
     "docstring": null,
     "file": "gcs_filesystem_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/gcs_filesystem_test.cc"
-  }
-][
+  },
   {
     "name": "CustomOption",
     "language": "cpp",
@@ -2803,8 +2762,7 @@
     "docstring": null,
     "file": "legalize_jax_random.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_jax_random.cc"
-  }
-][
+  },
   {
     "name": "IsSamePaddingOnDim",
     "language": "cpp",
@@ -2820,8 +2778,7 @@
     "docstring": null,
     "file": "op_util_common.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/op_util_common.cc"
-  }
-][
+  },
   {
     "name": "ValidateGetCompilerIrTfrtTpu",
     "language": "cpp",
@@ -2847,8 +2804,7 @@
     "docstring": null,
     "file": "get_compiler_ir.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/get_compiler_ir.cc"
-  }
-][
+  },
   {
     "name": "GetDumpDir",
     "language": "cpp",
@@ -2870,8 +2826,7 @@
     "docstring": null,
     "file": "debug_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/debug_test.cc"
-  }
-][
+  },
   {
     "name": "arg_type",
     "language": "c",
@@ -2891,8 +2846,7 @@
     "docstring": null,
     "file": "arg_spec.h",
     "file_path": "../data2/raw_data/repos/tensorflow/arg_spec.h"
-  }
-][
+  },
   {
     "name": "LogOptions",
     "language": "cpp",
@@ -2991,8 +2945,7 @@
     "docstring": null,
     "file": "xla_compiler_options_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_compiler_options_util.cc"
-  }
-][
+  },
   {
     "name": "LoadFileRaw",
     "language": "cpp",
@@ -3019,8 +2972,7 @@
     "docstring": null,
     "file": "flatbuffer_compatibility_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_compatibility_test.cc"
-  }
-][
+  },
   {
     "name": "ShapeDebugString",
     "language": "cpp",
@@ -3032,8 +2984,7 @@
     "docstring": null,
     "file": "tensor_shape_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tensor_shape_utils.cc"
-  }
-][
+  },
   {
     "name": "ConvertFromPyString",
     "language": "cpp",
@@ -3047,8 +2998,7 @@
     "docstring": null,
     "file": "python_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/python_utils.cc"
-  }
-][
+  },
   {
     "name": "TF_ShapeDims",
     "language": "cpp",
@@ -3085,8 +3035,7 @@
     "docstring": null,
     "file": "tf_shape.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_shape.cc"
-  }
-][
+  },
   {
     "name": "APFloatToEigenHalf",
     "language": "cpp",
@@ -3180,8 +3129,7 @@
     "docstring": null,
     "file": "dense_to_sparse_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/dense_to_sparse_pass.cc"
-  }
-][
+  },
   {
     "name": "isDenseI64Array",
     "language": "cpp",
@@ -3207,8 +3155,7 @@
     "docstring": null,
     "file": "tfl_stablehlo_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tfl_stablehlo_pass.cc"
-  }
-][
+  },
   {
     "name": "tfrun",
     "language": "shell",
@@ -3217,8 +3164,7 @@
     "docstring": null,
     "file": "setup_docker.sh",
     "file_path": "../data2/raw_data/repos/tensorflow/setup_docker.sh"
-  }
-][
+  },
   {
     "name": "make_safe",
     "language": "cpp",
@@ -3266,8 +3212,7 @@
     "docstring": null,
     "file": "safe_ptr.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/safe_ptr.cc"
-  }
-][
+  },
   {
     "name": "GetTensors",
     "language": "cpp",
@@ -3325,8 +3270,7 @@
     "docstring": null,
     "file": "testutil.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/testutil.cc"
-  }
-][
+  },
   {
     "name": "UseMlir",
     "language": "cpp",
@@ -3374,8 +3318,7 @@
     "docstring": null,
     "file": "unified_api_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/unified_api_test.cc"
-  }
-][
+  },
   {
     "name": "Serialize",
     "language": "cpp",
@@ -3511,8 +3454,7 @@
     "docstring": null,
     "file": "metadata_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/metadata_util.cc"
-  }
-][
+  },
   {
     "name": "GetTensorNamesFromTensorInfo",
     "language": "cpp",
@@ -3655,8 +3597,7 @@
     "docstring": null,
     "file": "freeze_saved_model.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/freeze_saved_model.cc"
-  }
-][
+  },
   {
     "name": "ReadVariableOpGrad",
     "language": "cpp",
@@ -3671,8 +3612,7 @@
     "docstring": null,
     "file": "resource_variable_grad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/resource_variable_grad.cc"
-  }
-][
+  },
   {
     "name": "IsBias",
     "language": "c",
@@ -3738,8 +3678,7 @@
     "docstring": null,
     "file": "quantization_traits.h",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_traits.h"
-  }
-][
+  },
   {
     "name": "parseOneResultSameOperandTypeOp",
     "language": "cpp",
@@ -4608,8 +4547,7 @@
     "docstring": null,
     "file": "tfl_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tfl_ops.cc"
-  }
-][
+  },
   {
     "name": "GetPermutedTensorTypeHelper",
     "language": "cpp",
@@ -4650,8 +4588,7 @@
     "docstring": null,
     "file": "optimize_layout.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/optimize_layout.cc"
-  }
-][
+  },
   {
     "name": "convertPrimitiveValueAttr",
     "language": "cpp",
@@ -4694,8 +4631,7 @@
     "docstring": null,
     "file": "QuantizeUtils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/QuantizeUtils.cc"
-  }
-][
+  },
   {
     "name": "UnPackFlatBufferModel",
     "language": "cpp",
@@ -4880,8 +4816,7 @@
     "docstring": null,
     "file": "quantize_model_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantize_model_test.cc"
-  }
-][
+  },
   {
     "name": "IsShapeFullyStatic",
     "language": "cpp",
@@ -5068,8 +5003,7 @@
     "docstring": null,
     "file": "conv.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/conv.cc"
-  }
-][
+  },
   {
     "name": "ParseCustomOption",
     "language": "cpp",
@@ -5098,8 +5032,7 @@
     "docstring": null,
     "file": "lift_tflite_flex_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/lift_tflite_flex_ops.cc"
-  }
-][
+  },
   {
     "name": "PrintAllCCOps",
     "language": "cpp",
@@ -5127,8 +5060,7 @@
     "docstring": null,
     "file": "cc_op_gen_main.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cc_op_gen_main.cc"
-  }
-][
+  },
   {
     "name": "ToString",
     "language": "cpp",
@@ -5205,8 +5137,7 @@
     "docstring": null,
     "file": "command_line_flags.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/command_line_flags.cc"
-  }
-][
+  },
   {
     "name": "InferenceTypeEfficiency",
     "language": "cpp",
@@ -5218,8 +5149,7 @@
     "docstring": null,
     "file": "cpu_hardware.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cpu_hardware.cc"
-  }
-][
+  },
   {
     "name": "Append",
     "language": "cpp",
@@ -5323,8 +5253,7 @@
     "docstring": null,
     "file": "dot_general.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/dot_general.cc"
-  }
-][
+  },
   {
     "name": "PjRtDeviceToDeviceCopy",
     "language": "cpp",
@@ -5345,8 +5274,7 @@
     "docstring": null,
     "file": "pjrt_device_context.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pjrt_device_context.cc"
-  }
-][
+  },
   {
     "name": "RainbowRemat",
     "language": "cpp",
@@ -5372,8 +5300,7 @@
     "docstring": null,
     "file": "rematerializer_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/rematerializer_test.cc"
-  }
-][
+  },
   {
     "name": "RunTest",
     "language": "cpp",
@@ -5403,8 +5330,7 @@
     "docstring": null,
     "file": "functional_grad_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/functional_grad_test.cc"
-  }
-][
+  },
   {
     "name": "SavedModelPath",
     "language": "cpp",
@@ -5416,8 +5342,7 @@
     "docstring": null,
     "file": "saved_model_api_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/saved_model_api_test.cc"
-  }
-][
+  },
   {
     "name": "Insert",
     "language": "c",
@@ -5442,8 +5367,7 @@
     "docstring": null,
     "file": "revived_objects.h",
     "file_path": "../data2/raw_data/repos/tensorflow/revived_objects.h"
-  }
-][
+  },
   {
     "name": "size",
     "language": "cpp",
@@ -5569,8 +5493,7 @@
     "docstring": null,
     "file": "hlo_matchers.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/hlo_matchers.cc"
-  }
-][
+  },
   {
     "name": "GraphDefEqual",
     "language": "cpp",
@@ -5704,8 +5627,7 @@
     "docstring": null,
     "file": "freeze_saved_model_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/freeze_saved_model_test.cc"
-  }
-][
+  },
   {
     "name": "AttachCostPerDevice",
     "language": "cpp",
@@ -5718,8 +5640,7 @@
     "docstring": null,
     "file": "tflite_import_export.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tflite_import_export.cc"
-  }
-][
+  },
   {
     "name": "ParseTextProto",
     "language": "cpp",
@@ -5732,8 +5653,7 @@
     "docstring": null,
     "file": "fingerprinting_utils_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/fingerprinting_utils_test.cc"
-  }
-][
+  },
   {
     "name": "ValidateTPOptimizerRegistrationParams",
     "language": "cpp",
@@ -5991,8 +5911,7 @@
     "docstring": null,
     "file": "grappler.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/grappler.cc"
-  }
-][
+  },
   {
     "name": "FuncListAttr",
     "language": "cpp",
@@ -6004,8 +5923,7 @@
     "docstring": null,
     "file": "compilability_check_util_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/compilability_check_util_test.cc"
-  }
-][
+  },
   {
     "name": "MaterializeIllegalCast",
     "language": "cpp",
@@ -6099,8 +6017,7 @@
     "docstring": null,
     "file": "legalize_stablehlo_to_vhlo.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_stablehlo_to_vhlo.cc"
-  }
-][
+  },
   {
     "name": "Init",
     "language": "cpp",
@@ -6231,8 +6148,7 @@
     "docstring": null,
     "file": "while_loop_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/while_loop_test.cc"
-  }
-][
+  },
   {
     "name": "smoketest",
     "language": "python",
@@ -6242,8 +6158,7 @@
     "is_async": false,
     "file": "py_bindings_test.py",
     "file_path": "../data2/raw_data/repos/tensorflow/py_bindings_test.py"
-  }
-][
+  },
   {
     "name": "RunTest",
     "language": "cpp",
@@ -6273,8 +6188,7 @@
     "docstring": null,
     "file": "linalg_grad_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/linalg_grad_test.cc"
-  }
-][
+  },
   {
     "name": "PopulateIfPatterns",
     "language": "cpp",
@@ -6288,8 +6202,7 @@
     "docstring": null,
     "file": "if.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/if.cc"
-  }
-][
+  },
   {
     "name": "ExpectNodeEqual",
     "language": "cpp",
@@ -6330,8 +6243,7 @@
     "docstring": null,
     "file": "const_op_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/const_op_test.cc"
-  }
-][
+  },
   {
     "name": "run_tac",
     "language": "cpp",
@@ -6345,8 +6257,7 @@
     "docstring": null,
     "file": "tac_wrapper.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tac_wrapper.cc"
-  }
-][
+  },
   {
     "name": "is_windows",
     "language": "python",
@@ -7009,8 +6920,7 @@
     "is_async": false,
     "file": "configure.py",
     "file_path": "../data2/raw_data/repos/tensorflow/configure.py"
-  }
-][
+  },
   {
     "name": "ExecutableSize",
     "language": "c",
@@ -7042,8 +6952,7 @@
     "docstring": null,
     "file": "device_compilation_cache.h",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compilation_cache.h"
-  }
-][
+  },
   {
     "name": "MergeSummaryOp_Delete",
     "language": "cpp",
@@ -7078,8 +6987,7 @@
     "docstring": null,
     "file": "merge_summary_op.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/merge_summary_op.cc"
-  }
-][
+  },
   {
     "name": "wrapped_convert",
     "language": "python",
@@ -7165,8 +7073,7 @@
     "is_async": false,
     "file": "wrap_converter.py",
     "file_path": "../data2/raw_data/repos/tensorflow/wrap_converter.py"
-  }
-][
+  },
   {
     "name": "FloatDeallocator",
     "language": "cpp",
@@ -7251,8 +7158,7 @@
     "docstring": null,
     "file": "parallel_device_testlib.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/parallel_device_testlib.cc"
-  }
-][
+  },
   {
     "name": "UseMultipleStreams",
     "language": "c",
@@ -7262,8 +7168,7 @@
     "docstring": null,
     "file": "xla_device_context.h",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_device_context.h"
-  }
-][
+  },
   {
     "name": "RegisterNotDifferentiable",
     "language": "cpp",
@@ -7276,8 +7181,7 @@
     "docstring": null,
     "file": "not_differentiable.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/not_differentiable.cc"
-  }
-][
+  },
   {
     "name": "optimize_func",
     "language": "cpp",
@@ -7305,8 +7209,7 @@
     "docstring": null,
     "file": "grappler_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/grappler_test.cc"
-  }
-][
+  },
   {
     "name": "UseMultipleStreams",
     "language": "c",
@@ -7316,8 +7219,7 @@
     "docstring": null,
     "file": "xla_device.h",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_device.h"
-  }
-][
+  },
   {
     "name": "isValidQuantizationSpec",
     "language": "cpp",
@@ -7330,8 +7232,7 @@
     "docstring": null,
     "file": "QuantOps.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/QuantOps.cc"
-  }
-][
+  },
   {
     "name": "GetInitOp",
     "language": "cpp",
@@ -7358,8 +7259,7 @@
     "docstring": null,
     "file": "loader_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/loader_util.cc"
-  }
-][
+  },
   {
     "name": "CreateGraphDef",
     "language": "cpp",
@@ -7382,8 +7282,7 @@
     "docstring": null,
     "file": "xla_activity_listener_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_activity_listener_test.cc"
-  }
-][
+  },
   {
     "name": "index",
     "language": "c",
@@ -7463,8 +7362,7 @@
     "docstring": null,
     "file": "variable_info.h",
     "file_path": "../data2/raw_data/repos/tensorflow/variable_info.h"
-  }
-][
+  },
   {
     "name": "CompareRuntimeVersion",
     "language": "cpp",
@@ -7502,8 +7400,7 @@
     "docstring": null,
     "file": "runtime_version.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/runtime_version.cc"
-  }
-][
+  },
   {
     "name": "IsQuantizationType",
     "language": "cpp",
@@ -7597,8 +7494,7 @@
     "docstring": null,
     "file": "quantization_config.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_config.cc"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -7647,8 +7543,7 @@
     "docstring": null,
     "file": "tf_tfl_translate.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_tfl_translate.cc"
-  }
-][
+  },
   {
     "name": "ParseStructuredValue",
     "language": "cpp",
@@ -7720,8 +7615,7 @@
     "docstring": null,
     "file": "tf_concrete_function_test_protos.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_concrete_function_test_protos.cc"
-  }
-][
+  },
   {
     "name": "ComposeScale",
     "language": "cpp",
@@ -7733,8 +7627,7 @@
     "docstring": null,
     "file": "numerical_utils_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/numerical_utils_test.cc"
-  }
-][
+  },
   {
     "name": "for",
     "language": "cpp",
@@ -7759,8 +7652,7 @@
     "docstring": null,
     "file": "importer_test_min_max.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/importer_test_min_max.cc"
-  }
-][
+  },
   {
     "name": "XTimesY",
     "language": "cpp",
@@ -7794,8 +7686,7 @@
     "docstring": null,
     "file": "xla_kernel_creator_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_kernel_creator_test.cc"
-  }
-][
+  },
   {
     "name": "IsConst",
     "language": "cpp",
@@ -7832,8 +7723,7 @@
     "docstring": "Copyright 2020 The TensorFlow Authors. All Rights Reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");",
     "file": "execution_metadata_exporter.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/execution_metadata_exporter.cc"
-  }
-][
+  },
   {
     "name": "ShouldBeMegamorphic",
     "language": "cpp",
@@ -7871,8 +7761,7 @@
     "docstring": null,
     "file": "device_compilation_profiler.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compilation_profiler.cc"
-  }
-][
+  },
   {
     "name": "GetCompileOptions",
     "language": "cpp",
@@ -7901,8 +7790,7 @@
     "docstring": null,
     "file": "xla_compile_on_demand_op.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_compile_on_demand_op.cc"
-  }
-][
+  },
   {
     "name": "PartitionedCallGrad",
     "language": "cpp",
@@ -7917,8 +7805,7 @@
     "docstring": null,
     "file": "functional_grad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/functional_grad.cc"
-  }
-][
+  },
   {
     "name": "IsI8ToF32Cast",
     "language": "cpp",
@@ -8282,8 +8169,7 @@
     "docstring": null,
     "file": "compose_uniform_quantized_type_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/compose_uniform_quantized_type_pass.cc"
-  }
-][
+  },
   {
     "name": "NewScope",
     "language": "cpp",
@@ -8339,8 +8225,7 @@
     "docstring": null,
     "file": "scope.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/scope.cc"
-  }
-][
+  },
   {
     "name": "zero_buffers",
     "language": "cpp",
@@ -8364,8 +8249,7 @@
     "docstring": null,
     "file": "test_google.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/test_google.cc"
-  }
-][
+  },
   {
     "name": "tfadd",
     "language": "python",
@@ -8607,8 +8491,7 @@
     "is_async": false,
     "file": "make_test_graphs.py",
     "file_path": "../data2/raw_data/repos/tensorflow/make_test_graphs.py"
-  }
-][
+  },
   {
     "name": "CompareNumericalAndAutodiffGradients",
     "language": "cpp",
@@ -8653,8 +8536,7 @@
     "docstring": null,
     "file": "grad_test_helper.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/grad_test_helper.cc"
-  }
-][
+  },
   {
     "name": "HasSupportedElementType",
     "language": "cpp",
@@ -8678,8 +8560,7 @@
     "docstring": null,
     "file": "legalize_variables.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_variables.cc"
-  }
-][
+  },
   {
     "name": "IsControlFlowV1Op",
     "language": "cpp",
@@ -8792,8 +8673,7 @@
     "docstring": null,
     "file": "tf_to_tfl_flatbuffer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_to_tfl_flatbuffer.cc"
-  }
-][
+  },
   {
     "name": "ExecuteNoArgDummyReturnFunction",
     "language": "cpp",
@@ -8805,8 +8685,7 @@
     "docstring": null,
     "file": "restored_resource.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/restored_resource.cc"
-  }
-][
+  },
   {
     "name": "RunTest",
     "language": "cpp",
@@ -8821,8 +8700,7 @@
     "docstring": null,
     "file": "data_flow_grad_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/data_flow_grad_test.cc"
-  }
-][
+  },
   {
     "name": "IsQueueClosed",
     "language": "c",
@@ -8834,8 +8712,7 @@
     "docstring": null,
     "file": "queue_runner.h",
     "file_path": "../data2/raw_data/repos/tensorflow/queue_runner.h"
-  }
-][
+  },
   {
     "name": "_XlaClusterOutputGrad",
     "language": "python",
@@ -8848,8 +8725,7 @@
     "is_async": false,
     "file": "xla_ops_grad.py",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_ops_grad.py"
-  }
-][
+  },
   {
     "name": "profiler_start",
     "language": "c",
@@ -8903,8 +8779,7 @@
     "docstring": null,
     "file": "pluggable_profiler.h",
     "file_path": "../data2/raw_data/repos/tensorflow/pluggable_profiler.h"
-  }
-][
+  },
   {
     "name": "id",
     "language": "cpp",
@@ -9117,8 +8992,7 @@
     "docstring": null,
     "file": "deadness_analysis.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/deadness_analysis.cc"
-  }
-][
+  },
   {
     "name": "SmuggleOp",
     "language": "cpp",
@@ -9131,8 +9005,7 @@
     "docstring": null,
     "file": "smuggle_disallowed_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/smuggle_disallowed_ops.cc"
-  }
-][
+  },
   {
     "name": "AreAllParentsGuaranteedConst",
     "language": "cpp",
@@ -9254,8 +9127,7 @@
     "docstring": null,
     "file": "encapsulate_subgraphs_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/encapsulate_subgraphs_pass.cc"
-  }
-][
+  },
   {
     "name": "num_underlying_devices",
     "language": "c",
@@ -9285,8 +9157,7 @@
     "docstring": null,
     "file": "parallel_device_lib.h",
     "file_path": "../data2/raw_data/repos/tensorflow/parallel_device_lib.h"
-  }
-][
+  },
   {
     "name": "broadcastToFeatureDim",
     "language": "cpp",
@@ -9334,8 +9205,7 @@
     "docstring": null,
     "file": "stablehlo_unfuse_batch_norm_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/stablehlo_unfuse_batch_norm_pass.cc"
-  }
-][
+  },
   {
     "name": "ConvertBuiltinCodeToDeprecatedBuiltinCode",
     "language": "cpp",
@@ -9347,8 +9217,7 @@
     "docstring": null,
     "file": "schema_conversion_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/schema_conversion_utils.cc"
-  }
-][
+  },
   {
     "name": "PreferCustomSummarizer",
     "language": "c",
@@ -9370,8 +9239,7 @@
     "docstring": null,
     "file": "immediate_execution_tensor_handle.h",
     "file_path": "../data2/raw_data/repos/tensorflow/immediate_execution_tensor_handle.h"
-  }
-][
+  },
   {
     "name": "WithNoGlobalJit",
     "language": "c",
@@ -9423,8 +9291,7 @@
     "docstring": null,
     "file": "mark_for_compilation_pass_test_helper.h",
     "file_path": "../data2/raw_data/repos/tensorflow/mark_for_compilation_pass_test_helper.h"
-  }
-][
+  },
   {
     "name": "ReplaceReturnOp",
     "language": "cpp",
@@ -10275,8 +10142,7 @@
     "docstring": null,
     "file": "legalize_hlo.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_hlo.cc"
-  }
-][
+  },
   {
     "name": "SupportsFP16Inference",
     "language": "c",
@@ -10348,8 +10214,7 @@
     "docstring": null,
     "file": "reduced_precision_metadata.h",
     "file_path": "../data2/raw_data/repos/tensorflow/reduced_precision_metadata.h"
-  }
-][
+  },
   {
     "name": "type",
     "language": "c",
@@ -10389,8 +10254,7 @@
     "docstring": null,
     "file": "allocation.h",
     "file_path": "../data2/raw_data/repos/tensorflow/allocation.h"
-  }
-][
+  },
   {
     "name": "HasCheckpoint",
     "language": "c",
@@ -10410,8 +10274,7 @@
     "docstring": null,
     "file": "load.h",
     "file_path": "../data2/raw_data/repos/tensorflow/load.h"
-  }
-][
+  },
   {
     "name": "ConvertTFLQuantOpsToMlirQuantOps",
     "language": "cpp",
@@ -10435,8 +10298,7 @@
     "docstring": null,
     "file": "tfl_to_std.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tfl_to_std.cc"
-  }
-][
+  },
   {
     "name": "ReportError",
     "language": "c",
@@ -10458,8 +10320,7 @@
     "docstring": null,
     "file": "error_collector.h",
     "file_path": "../data2/raw_data/repos/tensorflow/error_collector.h"
-  }
-][
+  },
   {
     "name": "MakeDeadnessPredicate",
     "language": "c",
@@ -10471,8 +10332,7 @@
     "docstring": null,
     "file": "deadness_analysis.h",
     "file_path": "../data2/raw_data/repos/tensorflow/deadness_analysis.h"
-  }
-][
+  },
   {
     "name": "RoundDim",
     "language": "cpp",
@@ -10578,8 +10438,7 @@
     "docstring": null,
     "file": "composite_avg_pool.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/composite_avg_pool.cc"
-  }
-][
+  },
   {
     "name": "IsAcceptedDialect",
     "language": "cpp",
@@ -10606,8 +10465,7 @@
     "docstring": null,
     "file": "stablehlo_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/stablehlo_util.cc"
-  }
-][
+  },
   {
     "name": "TFE_DeleteTensorDebugInfo",
     "language": "cpp",
@@ -10644,8 +10502,7 @@
     "docstring": null,
     "file": "c_api_debug.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_debug.cc"
-  }
-][
+  },
   {
     "name": "IsEdgeSafe",
     "language": "cpp",
@@ -10771,8 +10628,7 @@
     "docstring": null,
     "file": "resource_operation_safety_analysis.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/resource_operation_safety_analysis.cc"
-  }
-][
+  },
   {
     "name": "scalar_summary_shape_inference_fn",
     "language": "cpp",
@@ -10795,8 +10651,7 @@
     "docstring": null,
     "file": "summary.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/summary.cc"
-  }
-][
+  },
   {
     "name": "GetURIForPath",
     "language": "cpp",
@@ -10928,8 +10783,7 @@
     "docstring": null,
     "file": "modular_filesystem_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/modular_filesystem_test.cc"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -10942,8 +10796,7 @@
     "docstring": null,
     "file": "compilation_passes_test_main.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/compilation_passes_test_main.cc"
-  }
-][
+  },
   {
     "name": "getKind",
     "language": "c",
@@ -10953,8 +10806,7 @@
     "docstring": null,
     "file": "abstract_context.h",
     "file_path": "../data2/raw_data/repos/tensorflow/abstract_context.h"
-  }
-][
+  },
   {
     "name": "UseMultipleStreams",
     "language": "c",
@@ -10994,8 +10846,7 @@
     "docstring": null,
     "file": "xla_platform_info.h",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_platform_info.h"
-  }
-][
+  },
   {
     "name": "merge_summary_shape_inference_fn",
     "language": "cpp",
@@ -11018,8 +10869,7 @@
     "docstring": null,
     "file": "merge_summary.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/merge_summary.cc"
-  }
-][
+  },
   {
     "name": "NotTFLQuantDequantizeOp",
     "language": "cpp",
@@ -11055,8 +10905,7 @@
     "docstring": null,
     "file": "utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/utils.cc"
-  }
-][
+  },
   {
     "name": "set_name",
     "language": "c",
@@ -11199,8 +11048,7 @@
     "docstring": null,
     "file": "node_matchers.h",
     "file_path": "../data2/raw_data/repos/tensorflow/node_matchers.h"
-  }
-][
+  },
   {
     "name": "OpQuantSpecWriter",
     "language": "cpp",
@@ -11226,8 +11074,7 @@
     "docstring": null,
     "file": "op_quant_spec_getters_gen.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/op_quant_spec_getters_gen.cc"
-  }
-][
+  },
   {
     "name": "CallGradFunction",
     "language": "cpp",
@@ -11242,8 +11089,7 @@
     "docstring": null,
     "file": "grad_testutil.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/grad_testutil.cc"
-  }
-][
+  },
   {
     "name": "TargetAwareConversionMain",
     "language": "cpp",
@@ -11266,8 +11112,7 @@
     "docstring": null,
     "file": "tac_translate.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tac_translate.cc"
-  }
-][
+  },
   {
     "name": "TFE_MonitoringCounterReader",
     "language": "c",
@@ -11279,8 +11124,7 @@
     "docstring": null,
     "file": "tfe_monitoring_reader_internal.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tfe_monitoring_reader_internal.h"
-  }
-][
+  },
   {
     "name": "classof",
     "language": "cpp",
@@ -11316,8 +11160,7 @@
     "docstring": null,
     "file": "c_api_unified_experimental_graph.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_unified_experimental_graph.cc"
-  }
-][
+  },
   {
     "name": "ReducedShapeHelper",
     "language": "cpp",
@@ -11331,8 +11174,7 @@
     "docstring": null,
     "file": "grad_helper.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/grad_helper.cc"
-  }
-][
+  },
   {
     "name": "GetIdOfOnlyNode",
     "language": "cpp",
@@ -11589,8 +11431,7 @@
     "docstring": null,
     "file": "mark_for_compilation_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/mark_for_compilation_pass.cc"
-  }
-][
+  },
   {
     "name": "TF_ConcreteFunctionListNumOutputs",
     "language": "cpp",
@@ -11614,8 +11455,7 @@
     "docstring": null,
     "file": "concrete_function_list.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/concrete_function_list.cc"
-  }
-][
+  },
   {
     "name": "MultiplyByQuantizedMultiplier",
     "language": "cpp",
@@ -11671,8 +11511,7 @@
     "docstring": null,
     "file": "common.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/common.cc"
-  }
-][
+  },
   {
     "name": "UpdateCost",
     "language": "c",
@@ -11699,8 +11538,7 @@
     "docstring": null,
     "file": "cost.h",
     "file_path": "../data2/raw_data/repos/tensorflow/cost.h"
-  }
-][
+  },
   {
     "name": "_running_from_pip_package",
     "language": "python",
@@ -11710,8 +11548,7 @@
     "is_async": false,
     "file": "api_template.__init__.py",
     "file_path": "../data2/raw_data/repos/tensorflow/api_template.__init__.py"
-  }
-][
+  },
   {
     "name": "GetFunctionImplName",
     "language": "cpp",
@@ -11748,8 +11585,7 @@
     "docstring": null,
     "file": "get_alternative_subgraph.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/get_alternative_subgraph.cc"
-  }
-][
+  },
   {
     "name": "TfLiteToMlir",
     "language": "cpp",
@@ -11788,8 +11624,7 @@
     "docstring": null,
     "file": "quantize_model.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantize_model.cc"
-  }
-][
+  },
   {
     "name": "RegisterGradients",
     "language": "cpp",
@@ -11815,8 +11650,7 @@
     "docstring": null,
     "file": "gradients_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/gradients_test.cc"
-  }
-][
+  },
   {
     "name": "LogOnceXlaCompiledFirstCluster",
     "language": "c",
@@ -11887,8 +11721,7 @@
     "docstring": null,
     "file": "device_compiler.h",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compiler.h"
-  }
-][
+  },
   {
     "name": "getKind",
     "language": "c",
@@ -11898,8 +11731,7 @@
     "docstring": null,
     "file": "abstract_op_attrs.h",
     "file_path": "../data2/raw_data/repos/tensorflow/abstract_op_attrs.h"
-  }
-][
+  },
   {
     "name": "GetBiasScale",
     "language": "cpp",
@@ -12483,8 +12315,7 @@
     "docstring": null,
     "file": "uniform_quantized_stablehlo_to_tfl_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/uniform_quantized_stablehlo_to_tfl_pass.cc"
-  }
-][
+  },
   {
     "name": "LegalizeTFPass",
     "language": "cpp",
@@ -12656,8 +12487,7 @@
     "docstring": null,
     "file": "legalize_tf.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_tf.cc"
-  }
-][
+  },
   {
     "name": "generate_non_chunked_model",
     "language": "python",
@@ -12694,8 +12524,7 @@
     "is_async": false,
     "file": "generate_chunked_models.py",
     "file_path": "../data2/raw_data/repos/tensorflow/generate_chunked_models.py"
-  }
-][
+  },
   {
     "name": "IsIotaLegal",
     "language": "cpp",
@@ -12733,8 +12562,7 @@
     "docstring": null,
     "file": "iota.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/iota.cc"
-  }
-][
+  },
   {
     "name": "TFE_MonitoringReadCounter0",
     "language": "cpp",
@@ -12759,8 +12587,7 @@
     "docstring": null,
     "file": "c_api_experimental_reader.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_experimental_reader.cc"
-  }
-][
+  },
   {
     "name": "classof",
     "language": "c",
@@ -12796,8 +12623,7 @@
     "docstring": null,
     "file": "c_api_unified_experimental_internal.h",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_unified_experimental_internal.h"
-  }
-][
+  },
   {
     "name": "ReadCache",
     "language": "cpp",
@@ -12873,8 +12699,7 @@
     "docstring": null,
     "file": "ram_file_block_cache_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/ram_file_block_cache_test.cc"
-  }
-][
+  },
   {
     "name": "replace_drive_letter_with_prefix",
     "language": "shell",
@@ -12883,8 +12708,7 @@
     "docstring": null,
     "file": "windows.sh",
     "file_path": "../data2/raw_data/repos/tensorflow/windows.sh"
-  }
-][
+  },
   {
     "name": "Reset",
     "language": "c",
@@ -12896,8 +12720,7 @@
     "docstring": null,
     "file": "tensorhandle.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tensorhandle.h"
-  }
-][
+  },
   {
     "name": "ExportRecordMutation",
     "language": "cpp",
@@ -13056,8 +12879,7 @@
     "docstring": null,
     "file": "python_api.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/python_api.cc"
-  }
-][
+  },
   {
     "name": "AssertAllCreateResourceFunctionsHaveNoCaptures",
     "language": "cpp",
@@ -13215,8 +13037,7 @@
     "docstring": null,
     "file": "partially_revived_objects.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/partially_revived_objects.cc"
-  }
-][
+  },
   {
     "name": "RoundTrip",
     "language": "cpp",
@@ -13228,8 +13049,7 @@
     "docstring": null,
     "file": "metadata_util_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/metadata_util_test.cc"
-  }
-][
+  },
   {
     "name": "RunTest",
     "language": "cpp",
@@ -13244,8 +13064,7 @@
     "docstring": null,
     "file": "manip_grad_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/manip_grad_test.cc"
-  }
-][
+  },
   {
     "name": "IsEmpty",
     "language": "c",
@@ -13293,8 +13112,7 @@
     "docstring": null,
     "file": "quantization_driver.h",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_driver.h"
-  }
-][
+  },
   {
     "name": "TFLReplaceReturnOp",
     "language": "cpp",
@@ -13333,8 +13151,7 @@
     "docstring": null,
     "file": "while.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/while.cc"
-  }
-][
+  },
   {
     "name": "FromConverterFlagsToTfLiteDType",
     "language": "cpp",
@@ -13384,8 +13201,7 @@
     "docstring": null,
     "file": "converter_python_api.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/converter_python_api.cc"
-  }
-][
+  },
   {
     "name": "TestDataPbTxt",
     "language": "cpp",
@@ -13437,8 +13253,7 @@
     "docstring": null,
     "file": "reader_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/reader_test.cc"
-  }
-][
+  },
   {
     "name": "ShapeToConst",
     "language": "cpp",
@@ -13741,8 +13556,7 @@
     "docstring": null,
     "file": "tflite_legalize_hlo.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tflite_legalize_hlo.cc"
-  }
-][
+  },
   {
     "name": "IsShloMainFuncOp",
     "language": "cpp",
@@ -13779,8 +13593,7 @@
     "docstring": null,
     "file": "legalize_tf_xla_call_module_to_stablehlo_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_tf_xla_call_module_to_stablehlo_pass.cc"
-  }
-][
+  },
   {
     "name": "DeviceNameToDeviceType",
     "language": "cpp",
@@ -13817,8 +13630,7 @@
     "docstring": null,
     "file": "device_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_util.cc"
-  }
-][
+  },
   {
     "name": "AttachErrorCode",
     "language": "c",
@@ -13831,8 +13643,7 @@
     "docstring": null,
     "file": "error_collector_inst.h",
     "file_path": "../data2/raw_data/repos/tensorflow/error_collector_inst.h"
-  }
-][
+  },
   {
     "name": "IsPadLegal",
     "language": "cpp",
@@ -13883,8 +13694,7 @@
     "docstring": null,
     "file": "pad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pad.cc"
-  }
-][
+  },
   {
     "name": "IncreaseDynamismForAutoJit",
     "language": "cpp",
@@ -13909,8 +13719,7 @@
     "docstring": null,
     "file": "increase_dynamism_for_auto_jit_pass_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/increase_dynamism_for_auto_jit_pass_test.cc"
-  }
-][
+  },
   {
     "name": "GetVariableInfosFromInputs",
     "language": "cpp",
@@ -13996,8 +13805,7 @@
     "docstring": null,
     "file": "variable_info_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/variable_info_util.cc"
-  }
-][
+  },
   {
     "name": "DenseI64AttrToI32Attr",
     "language": "cpp",
@@ -14049,8 +13857,7 @@
     "docstring": null,
     "file": "composite_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/composite_utils.cc"
-  }
-][
+  },
   {
     "name": "CodeLine",
     "language": "c",
@@ -14141,8 +13948,7 @@
     "docstring": null,
     "file": "renderer.h",
     "file_path": "../data2/raw_data/repos/tensorflow/renderer.h"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -14194,8 +14000,7 @@
     "docstring": null,
     "file": "reader.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/reader.cc"
-  }
-][
+  },
   {
     "name": "ShapeHandleToTensorShape",
     "language": "cpp",
@@ -14279,8 +14084,7 @@
     "docstring": null,
     "file": "shape_inference.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/shape_inference.cc"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -14293,8 +14097,7 @@
     "docstring": null,
     "file": "device_compiler_serialize_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compiler_serialize_test.cc"
-  }
-][
+  },
   {
     "name": "AddBufferToLlvmModule",
     "language": "cpp",
@@ -14309,8 +14112,7 @@
     "docstring": null,
     "file": "embedded_constant_buffers.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/embedded_constant_buffers.cc"
-  }
-][
+  },
   {
     "name": "TF_DeleteOpDefinitionBuilder",
     "language": "cpp",
@@ -14565,8 +14367,7 @@
     "docstring": null,
     "file": "ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/ops.cc"
-  }
-][
+  },
   {
     "name": "PortableSymmetricQuantizeFloats",
     "language": "cpp",
@@ -14600,8 +14401,7 @@
     "docstring": null,
     "file": "portable_tensor_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/portable_tensor_utils.cc"
-  }
-][
+  },
   {
     "name": "ReadAndVerify",
     "language": "cpp",
@@ -14649,8 +14449,7 @@
     "docstring": null,
     "file": "flatbuffer_to_string.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_to_string.cc"
-  }
-][
+  },
   {
     "name": "CreateParamsForInputs",
     "language": "cpp",
@@ -14706,8 +14505,7 @@
     "docstring": null,
     "file": "unified_api_testutil.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/unified_api_testutil.cc"
-  }
-][
+  },
   {
     "name": "GetBufferAllocationString",
     "language": "cpp",
@@ -14719,8 +14517,7 @@
     "docstring": null,
     "file": "thunk_proto_execution_deserializer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/thunk_proto_execution_deserializer.cc"
-  }
-][
+  },
   {
     "name": "MakeSerializedExample",
     "language": "cpp",
@@ -14758,8 +14555,7 @@
     "docstring": null,
     "file": "saved_model_bundle_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/saved_model_bundle_test.cc"
-  }
-][
+  },
   {
     "name": "Explain",
     "language": "cpp",
@@ -14772,8 +14568,7 @@
     "docstring": null,
     "file": "node_matchers_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/node_matchers_test.cc"
-  }
-][
+  },
   {
     "name": "WriteAllFuzzers",
     "language": "cpp",
@@ -14800,8 +14595,7 @@
     "docstring": null,
     "file": "cc_op_fuzz_gen_main.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cc_op_fuzz_gen_main.cc"
-  }
-][
+  },
   {
     "name": "CreateStringScalarTensorHandle",
     "language": "cpp",
@@ -14845,8 +14639,7 @@
     "docstring": null,
     "file": "restore_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/restore_ops.cc"
-  }
-][
+  },
   {
     "name": "ValidateSPPlatform",
     "language": "cpp",
@@ -15033,8 +14826,7 @@
     "docstring": null,
     "file": "stream_executor.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/stream_executor.cc"
-  }
-][
+  },
   {
     "name": "ComputeNewShape",
     "language": "cpp",
@@ -15085,8 +14877,7 @@
     "docstring": null,
     "file": "bitcast.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/bitcast.cc"
-  }
-][
+  },
   {
     "name": "ForEachListener",
     "language": "cpp",
@@ -15205,8 +14996,7 @@
     "docstring": null,
     "file": "xla_activity_listener.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_activity_listener.cc"
-  }
-][
+  },
   {
     "name": "PopulateCasePatterns",
     "language": "cpp",
@@ -15220,8 +15010,7 @@
     "docstring": null,
     "file": "case.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/case.cc"
-  }
-][
+  },
   {
     "name": "MakeSerializedExample",
     "language": "cpp",
@@ -15259,8 +15048,7 @@
     "docstring": null,
     "file": "saved_model_bundle_lite_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/saved_model_bundle_lite_test.cc"
-  }
-][
+  },
   {
     "name": "identity_shape_fn",
     "language": "cpp",
@@ -15321,8 +15109,7 @@
     "docstring": null,
     "file": "ops_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/ops_test.cc"
-  }
-][
+  },
   {
     "name": "TF_VariableInfo",
     "language": "cpp",
@@ -15463,8 +15250,7 @@
     "docstring": null,
     "file": "c_api.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api.cc"
-  }
-][
+  },
   {
     "name": "TF_SignatureDefParamListSize",
     "language": "cpp",
@@ -15476,8 +15262,7 @@
     "docstring": null,
     "file": "signature_def_param_list.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/signature_def_param_list.cc"
-  }
-][
+  },
   {
     "name": "Mul",
     "language": "cpp",
@@ -15696,8 +15481,7 @@
     "docstring": null,
     "file": "math_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/math_ops.cc"
-  }
-][
+  },
   {
     "name": "tf_name",
     "language": "c",
@@ -15709,8 +15493,7 @@
     "docstring": null,
     "file": "cppmath.h",
     "file_path": "../data2/raw_data/repos/tensorflow/cppmath.h"
-  }
-][
+  },
   {
     "name": "GetUniqueScopeId",
     "language": "cpp",
@@ -15746,8 +15529,7 @@
     "docstring": null,
     "file": "cluster_scoping_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cluster_scoping_pass.cc"
-  }
-][
+  },
   {
     "name": "GetHardwareRewritePatterns",
     "language": "cpp",
@@ -15799,8 +15581,7 @@
     "docstring": null,
     "file": "device_transform.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_transform.cc"
-  }
-][
+  },
   {
     "name": "NumSpatials",
     "language": "c",
@@ -15907,8 +15688,7 @@
     "docstring": null,
     "file": "op_util_common.h",
     "file_path": "../data2/raw_data/repos/tensorflow/op_util_common.h"
-  }
-][
+  },
   {
     "name": "plugin_memory_free",
     "language": "cpp",
@@ -15945,8 +15725,7 @@
     "docstring": null,
     "file": "windows_filesystem.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/windows_filesystem.cc"
-  }
-][
+  },
   {
     "name": "CreateFlag",
     "language": "c",
@@ -15984,8 +15763,7 @@
     "docstring": null,
     "file": "command_line_flags.h",
     "file_path": "../data2/raw_data/repos/tensorflow/command_line_flags.h"
-  }
-][
+  },
   {
     "name": "GetTensorNameFromLoc",
     "language": "c",
@@ -16078,8 +15856,7 @@
     "docstring": null,
     "file": "quantization_utils.h",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_utils.h"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -16091,8 +15868,7 @@
     "docstring": null,
     "file": "legalize_qdq_custom_call_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_qdq_custom_call_pass.cc"
-  }
-][
+  },
   {
     "name": "GetTensorSize",
     "language": "cpp",
@@ -16119,8 +15895,7 @@
     "docstring": null,
     "file": "pjrt_tensor_buffer_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pjrt_tensor_buffer_util.cc"
-  }
-][
+  },
   {
     "name": "NeedBroadcastForBinaryInputs",
     "language": "cpp",
@@ -16180,8 +15955,7 @@
     "docstring": null,
     "file": "op_version.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/op_version.cc"
-  }
-][
+  },
   {
     "name": "GetServerDef",
     "language": "cpp",
@@ -16206,8 +15980,7 @@
     "docstring": null,
     "file": "parallel_device_remote_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/parallel_device_remote_test.cc"
-  }
-][
+  },
   {
     "name": "RegisterQuantizeFn",
     "language": "cpp",
@@ -16310,8 +16083,7 @@
     "docstring": null,
     "file": "compile.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/compile.cc"
-  }
-][
+  },
   {
     "name": "RegisterFilesystemPlugin",
     "language": "cpp",
@@ -16323,8 +16095,7 @@
     "docstring": null,
     "file": "modular_filesystem.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/modular_filesystem.cc"
-  }
-][
+  },
   {
     "name": "should_convert",
     "language": "python",
@@ -16350,8 +16121,7 @@
     "is_async": false,
     "file": "convert_msys_paths_to_win_paths.py",
     "file_path": "../data2/raw_data/repos/tensorflow/convert_msys_paths_to_win_paths.py"
-  }
-][
+  },
   {
     "name": "BatchGroupCount",
     "language": "c",
@@ -16637,8 +16407,7 @@
     "docstring": null,
     "file": "conv_util.h",
     "file_path": "../data2/raw_data/repos/tensorflow/conv_util.h"
-  }
-][
+  },
   {
     "name": "GetLatencyMicroseconds",
     "language": "cpp",
@@ -16901,8 +16670,7 @@
     "docstring": null,
     "file": "loader.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/loader.cc"
-  }
-][
+  },
   {
     "name": "LoggedTensorDim",
     "language": "cpp",
@@ -17002,8 +16770,7 @@
     "docstring": null,
     "file": "custom_device_testutil.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/custom_device_testutil.cc"
-  }
-][
+  },
   {
     "name": "BroadcastVector",
     "language": "cpp",
@@ -17451,8 +17218,7 @@
     "docstring": null,
     "file": "quantization_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_utils.cc"
-  }
-][
+  },
   {
     "name": "classof",
     "language": "c",
@@ -17464,8 +17230,7 @@
     "docstring": null,
     "file": "immediate_execution_context.h",
     "file_path": "../data2/raw_data/repos/tensorflow/immediate_execution_context.h"
-  }
-][
+  },
   {
     "name": "ReluModel",
     "language": "cpp",
@@ -17527,8 +17292,7 @@
     "docstring": null,
     "file": "nn_grad_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/nn_grad_test.cc"
-  }
-][
+  },
   {
     "name": "TpuPaddedShapeFn",
     "language": "cpp",
@@ -17606,8 +17370,7 @@
     "docstring": null,
     "file": "xla_tpu_device.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_tpu_device.cc"
-  }
-][
+  },
   {
     "name": "VarHandleOp",
     "language": "cpp",
@@ -17677,8 +17440,7 @@
     "docstring": null,
     "file": "resource_variable_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/resource_variable_ops.cc"
-  }
-][
+  },
   {
     "name": "CanonicalizeScatterUpdates",
     "language": "cpp",
@@ -17696,8 +17458,7 @@
     "docstring": null,
     "file": "scatter.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/scatter.cc"
-  }
-][
+  },
   {
     "name": "Call",
     "language": "cpp",
@@ -17737,8 +17498,7 @@
     "docstring": null,
     "file": "view_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/view_util.cc"
-  }
-][
+  },
   {
     "name": "GetReproducerStreamFactory",
     "language": "cpp",
@@ -17790,8 +17550,7 @@
     "docstring": null,
     "file": "debug.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/debug.cc"
-  }
-][
+  },
   {
     "name": "WindowSize",
     "language": "c",
@@ -17811,8 +17570,7 @@
     "docstring": null,
     "file": "reduce_window_util.h",
     "file_path": "../data2/raw_data/repos/tensorflow/reduce_window_util.h"
-  }
-][
+  },
   {
     "name": "BuildSimpleGraph",
     "language": "cpp",
@@ -17862,8 +17620,7 @@
     "docstring": null,
     "file": "queue_runner_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/queue_runner_test.cc"
-  }
-][
+  },
   {
     "name": "IsCompilableNode",
     "language": "c",
@@ -17936,8 +17693,7 @@
     "docstring": null,
     "file": "compilability_check_util.h",
     "file_path": "../data2/raw_data/repos/tensorflow/compilability_check_util.h"
-  }
-][
+  },
   {
     "name": "histogram_summary_shape_inference_fn",
     "language": "cpp",
@@ -17960,8 +17716,7 @@
     "docstring": null,
     "file": "histogram_summary.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/histogram_summary.cc"
-  }
-][
+  },
   {
     "name": "TemporaryVariableName",
     "language": "cpp",
@@ -18072,8 +17827,7 @@
     "docstring": null,
     "file": "kernels_experimental.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/kernels_experimental.cc"
-  }
-][
+  },
   {
     "name": "ClusterScoping",
     "language": "cpp",
@@ -18085,8 +17839,7 @@
     "docstring": null,
     "file": "cluster_scoping_pass_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cluster_scoping_pass_test.cc"
-  }
-][
+  },
   {
     "name": "CompileToExecutable",
     "language": "cpp",
@@ -18115,8 +17868,7 @@
     "docstring": null,
     "file": "xla_launch_util_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_launch_util_test.cc"
-  }
-][
+  },
   {
     "name": "TF_SetFilesystemVersionMetadata",
     "language": "c",
@@ -18128,8 +17880,7 @@
     "docstring": null,
     "file": "filesystem_interface.h",
     "file_path": "../data2/raw_data/repos/tensorflow/filesystem_interface.h"
-  }
-][
+  },
   {
     "name": "GetDeviceName",
     "language": "cpp",
@@ -18210,8 +17961,7 @@
     "docstring": null,
     "file": "c_api_test_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_test_util.cc"
-  }
-][
+  },
   {
     "name": "IsEnabled",
     "language": "cpp",
@@ -18241,8 +17991,7 @@
     "docstring": null,
     "file": "xla_activity_logging_listener.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_activity_logging_listener.cc"
-  }
-][
+  },
   {
     "name": "HasSubstr",
     "language": "cpp",
@@ -18281,8 +18030,7 @@
     "docstring": null,
     "file": "c_api_experimental_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_experimental_test.cc"
-  }
-][
+  },
   {
     "name": "VarsAndArithmeticObjectGraph.__init__",
     "language": "python",
@@ -18504,8 +18252,7 @@
     "is_async": false,
     "file": "generate_saved_models.py",
     "file_path": "../data2/raw_data/repos/tensorflow/generate_saved_models.py"
-  }
-][
+  },
   {
     "name": "PartiallyDecluster",
     "language": "cpp",
@@ -18544,8 +18291,7 @@
     "docstring": null,
     "file": "partially_decluster_pass_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/partially_decluster_pass_test.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -18569,8 +18315,7 @@
     "docstring": null,
     "file": "sparsity_format_converter.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/sparsity_format_converter.cc"
-  }
-][
+  },
   {
     "name": "TF_RunAsyncOpKernelDoneCallback",
     "language": "cpp",
@@ -19161,8 +18906,7 @@
     "docstring": null,
     "file": "kernels.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/kernels.cc"
-  }
-][
+  },
   {
     "name": "SafeCast",
     "language": "c",
@@ -19174,8 +18918,7 @@
     "docstring": null,
     "file": "quantization_util.h",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_util.h"
-  }
-][
+  },
   {
     "name": "CompareNumericalAndManualGradients",
     "language": "cpp",
@@ -19242,8 +18985,7 @@
     "docstring": null,
     "file": "gradient_checker_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/gradient_checker_test.cc"
-  }
-][
+  },
   {
     "name": "Reset",
     "language": "c",
@@ -19255,8 +18997,7 @@
     "docstring": null,
     "file": "runtime.h",
     "file_path": "../data2/raw_data/repos/tensorflow/runtime.h"
-  }
-][
+  },
   {
     "name": "id",
     "language": "c",
@@ -19314,8 +19055,7 @@
     "docstring": null,
     "file": "device_util.h",
     "file_path": "../data2/raw_data/repos/tensorflow/device_util.h"
-  }
-][
+  },
   {
     "name": "FlatBufferFileToMlir",
     "language": "cpp",
@@ -19328,8 +19068,7 @@
     "docstring": null,
     "file": "flatbuffer_to_mlir.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_to_mlir.cc"
-  }
-][
+  },
   {
     "name": "DeviceMemoryBaseToC",
     "language": "c",
@@ -19446,8 +19185,7 @@
     "docstring": null,
     "file": "stream_executor_internal.h",
     "file_path": "../data2/raw_data/repos/tensorflow/stream_executor_internal.h"
-  }
-][
+  },
   {
     "name": "ExpectHasSubstr",
     "language": "cpp",
@@ -19503,8 +19241,7 @@
     "docstring": null,
     "file": "cc_op_gen_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cc_op_gen_test.cc"
-  }
-][
+  },
   {
     "name": "QuantizeAnnotatedModel",
     "language": "cpp",
@@ -19530,8 +19267,7 @@
     "docstring": null,
     "file": "tfl_quantizer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tfl_quantizer.cc"
-  }
-][
+  },
   {
     "name": "FoldConstantsToSubgraphPass",
     "language": "cpp",
@@ -19569,8 +19305,7 @@
     "docstring": null,
     "file": "fold_constants_to_subgraph.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/fold_constants_to_subgraph.cc"
-  }
-][
+  },
   {
     "name": "getKind",
     "language": "c",
@@ -19580,8 +19315,7 @@
     "docstring": null,
     "file": "abstract_function.h",
     "file_path": "../data2/raw_data/repos/tensorflow/abstract_function.h"
-  }
-][
+  },
   {
     "name": "GetDefaultXlaOptions",
     "language": "cpp",
@@ -19601,8 +19335,7 @@
     "docstring": null,
     "file": "device_compiler_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compiler_test.cc"
-  }
-][
+  },
   {
     "name": "AddOptimizationPasses",
     "language": "cpp",
@@ -19765,8 +19498,7 @@
     "docstring": null,
     "file": "tf_tfl_passes.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_tfl_passes.cc"
-  }
-][
+  },
   {
     "name": "DefaultQuantParamsPass",
     "language": "cpp",
@@ -19804,8 +19536,7 @@
     "docstring": null,
     "file": "default_quant_params.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/default_quant_params.cc"
-  }
-][
+  },
   {
     "name": "ToId",
     "language": "cpp",
@@ -20143,8 +19874,7 @@
     "docstring": null,
     "file": "gradients.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/gradients.cc"
-  }
-][
+  },
   {
     "name": "UnfoldSplatConstant",
     "language": "cpp",
@@ -20157,8 +19887,7 @@
     "docstring": null,
     "file": "unfold_splat_constant_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/unfold_splat_constant_pass.cc"
-  }
-][
+  },
   {
     "name": "TensorLoc",
     "language": "cpp",
@@ -20483,8 +20212,7 @@
     "docstring": null,
     "file": "flatbuffer_import.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_import.cc"
-  }
-][
+  },
   {
     "name": "RollGrad",
     "language": "cpp",
@@ -20499,8 +20227,7 @@
     "docstring": null,
     "file": "manip_grad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/manip_grad.cc"
-  }
-][
+  },
   {
     "name": "ConvertIODataTypeToDataType",
     "language": "cpp",
@@ -20611,8 +20338,7 @@
     "docstring": null,
     "file": "tf_tfl_flatbuffer_helpers.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_tfl_flatbuffer_helpers.cc"
-  }
-][
+  },
   {
     "name": "ValidateScheme",
     "language": "cpp",
@@ -20786,8 +20512,7 @@
     "docstring": null,
     "file": "modular_filesystem_registration.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/modular_filesystem_registration.cc"
-  }
-][
+  },
   {
     "name": "NotBackedge",
     "language": "cpp",
@@ -20901,8 +20626,7 @@
     "docstring": null,
     "file": "partially_decluster_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/partially_decluster_pass.cc"
-  }
-][
+  },
   {
     "name": "IsConstantOrNone",
     "language": "cpp",
@@ -20944,8 +20668,7 @@
     "docstring": null,
     "file": "outline_operations.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/outline_operations.cc"
-  }
-][
+  },
   {
     "name": "Render",
     "language": "cpp",
@@ -20965,8 +20688,7 @@
     "docstring": null,
     "file": "renderer_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/renderer_test.cc"
-  }
-][
+  },
   {
     "name": "TestModule.model",
     "language": "python",
@@ -21028,8 +20750,7 @@
     "is_async": false,
     "file": "saved_model_error.py",
     "file_path": "../data2/raw_data/repos/tensorflow/saved_model_error.py"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -21042,8 +20763,7 @@
     "docstring": null,
     "file": "odml_converter_main.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/odml_converter_main.cc"
-  }
-][
+  },
   {
     "name": "ExpectSummaryMatches",
     "language": "cpp",
@@ -21071,8 +20791,7 @@
     "docstring": null,
     "file": "summary_op_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/summary_op_test.cc"
-  }
-][
+  },
   {
     "name": "CreateRegionWithCall",
     "language": "cpp",
@@ -21098,8 +20817,7 @@
     "docstring": null,
     "file": "legalize_tf_while.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_tf_while.cc"
-  }
-][
+  },
   {
     "name": "TensorSpecsAreEqual",
     "language": "cpp",
@@ -21127,8 +20845,7 @@
     "docstring": null,
     "file": "signature_flattening_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/signature_flattening_test.cc"
-  }
-][
+  },
   {
     "name": "AddEmbeddedProtocolBufferToLlvmModule",
     "language": "cpp",
@@ -21158,8 +20875,7 @@
     "docstring": null,
     "file": "embedded_protocol_buffers.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/embedded_protocol_buffers.cc"
-  }
-][
+  },
   {
     "name": "XlaSerializedCacheKeyToFileName",
     "language": "cpp",
@@ -21171,8 +20887,7 @@
     "docstring": null,
     "file": "device_executable_persistor.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_executable_persistor.cc"
-  }
-][
+  },
   {
     "name": "IndentAllButFirstLine",
     "language": "cpp",
@@ -21300,8 +21015,7 @@
     "docstring": null,
     "file": "node_matchers.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/node_matchers.cc"
-  }
-][
+  },
   {
     "name": "IsValidBufferOffset",
     "language": "c",
@@ -21313,8 +21027,7 @@
     "docstring": null,
     "file": "offset_buffer.h",
     "file_path": "../data2/raw_data/repos/tensorflow/offset_buffer.h"
-  }
-][
+  },
   {
     "name": "VerifyPersistentCacheUseListenerHistory",
     "language": "c",
@@ -21336,8 +21049,7 @@
     "docstring": null,
     "file": "device_compiler_test_helper.h",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compiler_test_helper.h"
-  }
-][
+  },
   {
     "name": "IsNonArithmeticOp",
     "language": "cpp",
@@ -21374,8 +21086,7 @@
     "docstring": null,
     "file": "target_hardware.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/target_hardware.cc"
-  }
-][
+  },
   {
     "name": "RestoreCheckpoint",
     "language": "cpp",
@@ -21402,8 +21113,7 @@
     "docstring": null,
     "file": "tf_saved_model_api.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_saved_model_api.cc"
-  }
-][
+  },
   {
     "name": "ConstHelper",
     "language": "cpp",
@@ -21456,8 +21166,7 @@
     "docstring": null,
     "file": "const_op.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/const_op.cc"
-  }
-][
+  },
   {
     "name": "CheckParsePointerParams",
     "language": "cpp",
@@ -23033,8 +22742,7 @@
     "docstring": null,
     "file": "flatbuffer_conversions.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_conversions.cc"
-  }
-][
+  },
   {
     "name": "deallocate_buffer",
     "language": "cpp",
@@ -23201,8 +22909,7 @@
     "docstring": null,
     "file": "tf_tensor.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_tensor.cc"
-  }
-][
+  },
   {
     "name": "EmptyParams",
     "language": "c",
@@ -23304,8 +23011,7 @@
     "docstring": null,
     "file": "quantization_context.h",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_context.h"
-  }
-][
+  },
   {
     "name": "Init",
     "language": "cpp",
@@ -23369,8 +23075,7 @@
     "docstring": null,
     "file": "while_gradients_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/while_gradients_test.cc"
-  }
-][
+  },
   {
     "name": "GetWriteVersion",
     "language": "cpp",
@@ -23398,8 +23103,7 @@
     "docstring": null,
     "file": "util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/util.cc"
-  }
-][
+  },
   {
     "name": "InitMain",
     "language": "cpp",
@@ -23457,8 +23161,7 @@
     "docstring": null,
     "file": "generate_cpp_main.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/generate_cpp_main.cc"
-  }
-][
+  },
   {
     "name": "MultiplyByQuantizedMultiplierSmallerThanOneExp",
     "language": "c",
@@ -23594,8 +23297,7 @@
     "docstring": null,
     "file": "common.h",
     "file_path": "../data2/raw_data/repos/tensorflow/common.h"
-  }
-][
+  },
   {
     "name": "cp_normalized_srcjar",
     "language": "shell",
@@ -23604,8 +23306,7 @@
     "docstring": null,
     "file": "repack_libtensorflow.sh",
     "file_path": "../data2/raw_data/repos/tensorflow/repack_libtensorflow.sh"
-  }
-][
+  },
   {
     "name": "FormatStringCase",
     "language": "cpp",
@@ -23683,8 +23384,7 @@
     "docstring": null,
     "file": "case_format.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/case_format.cc"
-  }
-][
+  },
   {
     "name": "DefaultXlaOptions",
     "language": "cpp",
@@ -23743,8 +23443,7 @@
     "docstring": null,
     "file": "device_executable_persistor_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_executable_persistor_test.cc"
-  }
-][
+  },
   {
     "name": "SetSpacesPerIndent",
     "language": "c",
@@ -23756,8 +23455,7 @@
     "docstring": null,
     "file": "source_code.h",
     "file_path": "../data2/raw_data/repos/tensorflow/source_code.h"
-  }
-][
+  },
   {
     "name": "SafeConj",
     "language": "cpp",
@@ -23796,8 +23494,7 @@
     "docstring": null,
     "file": "math_grad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/math_grad.cc"
-  }
-][
+  },
   {
     "name": "AppendMainFlags",
     "language": "cpp",
@@ -23810,8 +23507,7 @@
     "docstring": null,
     "file": "flags.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flags.cc"
-  }
-][
+  },
   {
     "name": "BM_BuildSignature",
     "language": "cpp",
@@ -23823,8 +23519,7 @@
     "docstring": null,
     "file": "device_compilation_cluster_signature_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compilation_cluster_signature_test.cc"
-  }
-][
+  },
   {
     "name": "IsTfFakeQuantOp",
     "language": "cpp",
@@ -23974,8 +23669,7 @@
     "docstring": null,
     "file": "fallback_to_flex_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/fallback_to_flex_ops.cc"
-  }
-][
+  },
   {
     "name": "TEST",
     "language": "cpp",
@@ -24038,8 +23732,7 @@
     "docstring": null,
     "file": "op_version_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/op_version_test.cc"
-  }
-][
+  },
   {
     "name": "DLManagedTensorDeleter",
     "language": "cpp",
@@ -24142,8 +23835,7 @@
     "docstring": null,
     "file": "dlpack.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/dlpack.cc"
-  }
-][
+  },
   {
     "name": "RegisterLiteToolingDialects",
     "language": "cpp",
@@ -24155,8 +23847,7 @@
     "docstring": null,
     "file": "register_lite_dialects.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/register_lite_dialects.cc"
-  }
-][
+  },
   {
     "name": "HasSplatArg",
     "language": "cpp",
@@ -24182,8 +23873,7 @@
     "docstring": null,
     "file": "gelu.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/gelu.cc"
-  }
-][
+  },
   {
     "name": "ExtractFileLine",
     "language": "cpp",
@@ -24236,8 +23926,7 @@
     "docstring": null,
     "file": "types_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/types_util.cc"
-  }
-][
+  },
   {
     "name": "PrintArray",
     "language": "c",
@@ -24250,8 +23939,7 @@
     "docstring": null,
     "file": "cc_op_gen_util.h",
     "file_path": "../data2/raw_data/repos/tensorflow/cc_op_gen_util.h"
-  }
-][
+  },
   {
     "name": "MaybeSetOpName",
     "language": "cpp",
@@ -24264,8 +23952,7 @@
     "docstring": null,
     "file": "tracing_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tracing_utils.cc"
-  }
-][
+  },
   {
     "name": "TF_StringInit",
     "language": "cpp",
@@ -24353,8 +24040,7 @@
     "docstring": null,
     "file": "tf_tstring.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_tstring.cc"
-  }
-][
+  },
   {
     "name": "MatchTopKComparator",
     "language": "cpp",
@@ -24392,8 +24078,7 @@
     "docstring": null,
     "file": "sort.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/sort.cc"
-  }
-][
+  },
   {
     "name": "data_type",
     "language": "c",
@@ -24433,8 +24118,7 @@
     "docstring": null,
     "file": "arg_type.h",
     "file_path": "../data2/raw_data/repos/tensorflow/arg_type.h"
-  }
-][
+  },
   {
     "name": "GetPjRtCompileOptions",
     "language": "cpp",
@@ -24447,8 +24131,7 @@
     "docstring": null,
     "file": "pjrt_device_compiler_client.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pjrt_device_compiler_client.cc"
-  }
-][
+  },
   {
     "name": "PopulateGetDimensionSizePatterns",
     "language": "cpp",
@@ -24462,8 +24145,7 @@
     "docstring": null,
     "file": "get_dimension_size.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/get_dimension_size.cc"
-  }
-][
+  },
   {
     "name": "zero_buffers",
     "language": "cpp",
@@ -24487,8 +24169,7 @@
     "docstring": null,
     "file": "test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/test.cc"
-  }
-][
+  },
   {
     "name": "extract_pass_name",
     "language": "cpp",
@@ -24512,8 +24193,7 @@
     "docstring": null,
     "file": "error_collector_inst.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/error_collector_inst.cc"
-  }
-][
+  },
   {
     "name": "IsAllowedTFTextOpForFlex",
     "language": "cpp",
@@ -24549,8 +24229,7 @@
     "docstring": null,
     "file": "allowlisted_flex_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/allowlisted_flex_ops.cc"
-  }
-][
+  },
   {
     "name": "SetAnnotation",
     "language": "cpp",
@@ -24577,8 +24256,7 @@
     "docstring": null,
     "file": "target_annotation.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/target_annotation.cc"
-  }
-][
+  },
   {
     "name": "TF_TensorWrapper",
     "language": "cpp",
@@ -24602,8 +24280,7 @@
     "docstring": null,
     "file": "tensor_shape_utils_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tensor_shape_utils_test.cc"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -24628,8 +24305,7 @@
     "docstring": null,
     "file": "json_to_flatbuffer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/json_to_flatbuffer.cc"
-  }
-][
+  },
   {
     "name": "TfLiteBuiltinOpToMlir",
     "language": "cpp",
@@ -24721,8 +24397,7 @@
     "docstring": null,
     "file": "quantize_weights.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantize_weights.cc"
-  }
-][
+  },
   {
     "name": "ShapeAnnotationsMatch",
     "language": "cpp",
@@ -24737,8 +24412,7 @@
     "docstring": null,
     "file": "test_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/test_util.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -24750,8 +24424,7 @@
     "docstring": null,
     "file": "parallel_device_lib.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/parallel_device_lib.cc"
-  }
-][
+  },
   {
     "name": "SE_InitPlugin",
     "language": "cpp",
@@ -24774,8 +24447,7 @@
     "docstring": null,
     "file": "test_pluggable_device.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/test_pluggable_device.cc"
-  }
-][
+  },
   {
     "name": "ForceXlaConstantsOnHost",
     "language": "cpp",
@@ -24789,8 +24461,7 @@
     "docstring": null,
     "file": "force_xla_constants_on_host_pass_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/force_xla_constants_on_host_pass_test.cc"
-  }
-][
+  },
   {
     "name": "classof",
     "language": "c",
@@ -24802,8 +24473,7 @@
     "docstring": null,
     "file": "graph_function.h",
     "file_path": "../data2/raw_data/repos/tensorflow/graph_function.h"
-  }
-][
+  },
   {
     "name": "Range",
     "language": "cpp",
@@ -24888,8 +24558,7 @@
     "docstring": null,
     "file": "gradient_checker.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/gradient_checker.cc"
-  }
-][
+  },
   {
     "name": "Set",
     "language": "c",
@@ -33007,8 +32676,7 @@
     "docstring": null,
     "file": "schema_generated.h",
     "file_path": "../data2/raw_data/repos/tensorflow/schema_generated.h"
-  }
-][
+  },
   {
     "name": "Allocate",
     "language": "cpp",
@@ -33636,8 +33304,7 @@
     "docstring": null,
     "file": "stream_executor_test_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/stream_executor_test_util.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -33649,8 +33316,7 @@
     "docstring": null,
     "file": "source_code.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/source_code.cc"
-  }
-][
+  },
   {
     "name": "XlaPlatformInfoFromDevice",
     "language": "cpp",
@@ -33835,8 +33501,7 @@
     "docstring": null,
     "file": "xla_launch_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_launch_util.cc"
-  }
-][
+  },
   {
     "name": "getKind",
     "language": "c",
@@ -33846,8 +33511,7 @@
     "docstring": null,
     "file": "abstract_tensor_handle.h",
     "file_path": "../data2/raw_data/repos/tensorflow/abstract_tensor_handle.h"
-  }
-][
+  },
   {
     "name": "CreateTensorProto",
     "language": "cpp",
@@ -33874,8 +33538,7 @@
     "docstring": null,
     "file": "util_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/util_test.cc"
-  }
-][
+  },
   {
     "name": "IsRegionAlreadyOutlined",
     "language": "cpp",
@@ -33919,8 +33582,7 @@
     "docstring": null,
     "file": "if_outline.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/if_outline.cc"
-  }
-][
+  },
   {
     "name": "BuildPjRtBaseDeviceAttributes",
     "language": "cpp",
@@ -33934,8 +33596,7 @@
     "docstring": null,
     "file": "pjrt_base_device.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pjrt_base_device.cc"
-  }
-][
+  },
   {
     "name": "SparseSoftmaxCrossEntropyWithLogits",
     "language": "cpp",
@@ -34021,8 +33682,7 @@
     "docstring": null,
     "file": "nn_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/nn_ops.cc"
-  }
-][
+  },
   {
     "name": "CollectiveSum",
     "language": "cpp",
@@ -34064,8 +33724,7 @@
     "docstring": null,
     "file": "parallel_device_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/parallel_device_test.cc"
-  }
-][
+  },
   {
     "name": "ApplyFunctionTacFilter",
     "language": "cpp",
@@ -34118,8 +33777,7 @@
     "docstring": null,
     "file": "tac_filter.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tac_filter.cc"
-  }
-][
+  },
   {
     "name": "BitcastOp_Delete",
     "language": "cpp",
@@ -34166,8 +33824,7 @@
     "docstring": null,
     "file": "bitcast_op.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/bitcast_op.cc"
-  }
-][
+  },
   {
     "name": "MakeInt64",
     "language": "cpp",
@@ -34279,8 +33936,7 @@
     "docstring": null,
     "file": "increase_dynamism_for_auto_jit_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/increase_dynamism_for_auto_jit_pass.cc"
-  }
-][
+  },
   {
     "name": "DynamicPartitionGrad",
     "language": "cpp",
@@ -34322,8 +33978,7 @@
     "docstring": null,
     "file": "data_flow_grad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/data_flow_grad.cc"
-  }
-][
+  },
   {
     "name": "RestoreV2",
     "language": "cpp",
@@ -34360,8 +34015,7 @@
     "docstring": null,
     "file": "io_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/io_ops.cc"
-  }
-][
+  },
   {
     "name": "TEST_F",
     "language": "cpp",
@@ -34387,8 +34041,7 @@
     "docstring": null,
     "file": "xla_platform_info_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_platform_info_test.cc"
-  }
-][
+  },
   {
     "name": "IncrementCounter0",
     "language": "cpp",
@@ -34415,8 +34068,7 @@
     "docstring": null,
     "file": "c_api_experimental_reader_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_experimental_reader_test.cc"
-  }
-][
+  },
   {
     "name": "ScalarSummaryOp_Delete",
     "language": "cpp",
@@ -34476,8 +34128,7 @@
     "docstring": null,
     "file": "summary_op.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/summary_op.cc"
-  }
-][
+  },
   {
     "name": "CreateXlaKernel",
     "language": "cpp",
@@ -34501,8 +34152,7 @@
     "docstring": null,
     "file": "xla_kernel_creator.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_kernel_creator.cc"
-  }
-][
+  },
   {
     "name": "WaitForStopThread",
     "language": "cpp",
@@ -34616,8 +34266,7 @@
     "docstring": null,
     "file": "coordinator_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/coordinator_test.cc"
-  }
-][
+  },
   {
     "name": "BM_InitOp",
     "language": "cpp",
@@ -34909,8 +34558,7 @@
     "docstring": null,
     "file": "c_api_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_test.cc"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -34923,8 +34571,7 @@
     "docstring": null,
     "file": "device_compiler_serialize_options_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compiler_serialize_options_test.cc"
-  }
-][
+  },
   {
     "name": "TF_DeleteSavedModel",
     "language": "cpp",
@@ -34936,8 +34583,7 @@
     "docstring": null,
     "file": "saved_model_api.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/saved_model_api.cc"
-  }
-][
+  },
   {
     "name": "ExtractOutsideCompilationTest",
     "language": "cpp",
@@ -34959,8 +34605,7 @@
     "docstring": null,
     "file": "extract_outside_compilation_pass_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/extract_outside_compilation_pass_test.cc"
-  }
-][
+  },
   {
     "name": "IsKeyPlaceholderNode",
     "language": "cpp",
@@ -35491,8 +35136,7 @@
     "docstring": null,
     "file": "extract_outside_compilation_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/extract_outside_compilation_pass.cc"
-  }
-][
+  },
   {
     "name": "GetPath",
     "language": "cpp",
@@ -35788,8 +35432,7 @@
     "docstring": null,
     "file": "cc_op_gen_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cc_op_gen_util.cc"
-  }
-][
+  },
   {
     "name": "GetArgument",
     "language": "c",
@@ -35819,8 +35462,7 @@
     "docstring": null,
     "file": "dense_to_sparse_pass.h",
     "file_path": "../data2/raw_data/repos/tensorflow/dense_to_sparse_pass.h"
-  }
-][
+  },
   {
     "name": "num_constant_args",
     "language": "cpp",
@@ -35970,8 +35612,7 @@
     "docstring": null,
     "file": "xla_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_ops.cc"
-  }
-][
+  },
   {
     "name": "classof",
     "language": "c",
@@ -35983,8 +35624,7 @@
     "docstring": null,
     "file": "tape_operation.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tape_operation.h"
-  }
-][
+  },
   {
     "name": "ComputeIncompatiblePairs",
     "language": "cpp",
@@ -36022,8 +35662,7 @@
     "docstring": null,
     "file": "resource_operation_safety_analysis_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/resource_operation_safety_analysis_test.cc"
-  }
-][
+  },
   {
     "name": "ValidateNonRefOutput",
     "language": "cpp",
@@ -36135,8 +35774,7 @@
     "docstring": null,
     "file": "c_api_function.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_function.cc"
-  }
-][
+  },
   {
     "name": "GetPaddingAttrType",
     "language": "cpp",
@@ -36208,8 +35846,7 @@
     "docstring": null,
     "file": "pad_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pad_util.cc"
-  }
-][
+  },
   {
     "name": "CompileToPjRtLoadedExecutable",
     "language": "cpp",
@@ -36253,8 +35890,7 @@
     "docstring": null,
     "file": "pjrt_compile_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pjrt_compile_util.cc"
-  }
-][
+  },
   {
     "name": "MakeTensor",
     "language": "c",
@@ -36268,8 +35904,7 @@
     "docstring": null,
     "file": "tf_tensor_internal.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_tensor_internal.h"
-  }
-][
+  },
   {
     "name": "CreateUninitializedResourceVariable",
     "language": "cpp",
@@ -36328,8 +35963,7 @@
     "docstring": null,
     "file": "variable_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/variable_ops.cc"
-  }
-][
+  },
   {
     "name": "TestSingleVariation",
     "language": "cpp",
@@ -36356,8 +35990,7 @@
     "docstring": null,
     "file": "case_format_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/case_format_test.cc"
-  }
-][
+  },
   {
     "name": "BuildXlaOps",
     "language": "cpp",
@@ -36427,8 +36060,7 @@
     "docstring": null,
     "file": "build_xla_ops_pass_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/build_xla_ops_pass_test.cc"
-  }
-][
+  },
   {
     "name": "CreatePadOpFromConvPadding",
     "language": "cpp",
@@ -36484,8 +36116,7 @@
     "docstring": null,
     "file": "conv_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/conv_util.cc"
-  }
-][
+  },
   {
     "name": "TF_DeleteBuffer",
     "language": "cpp",
@@ -36535,8 +36166,7 @@
     "docstring": null,
     "file": "tf_buffer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_buffer.cc"
-  }
-][
+  },
   {
     "name": "TestRemoteExecute",
     "language": "cpp",
@@ -36562,8 +36192,7 @@
     "docstring": null,
     "file": "c_api_remote_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_remote_test.cc"
-  }
-][
+  },
   {
     "name": "GetDependentDialects",
     "language": "c",
@@ -36588,8 +36217,7 @@
     "docstring": null,
     "file": "target_hardware.h",
     "file_path": "../data2/raw_data/repos/tensorflow/target_hardware.h"
-  }
-][
+  },
   {
     "name": "PickDeviceHelper",
     "language": "cpp",
@@ -36642,8 +36270,7 @@
     "docstring": null,
     "file": "device_util_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_util_test.cc"
-  }
-][
+  },
   {
     "name": "ExportCostGraph",
     "language": "c",
@@ -36665,8 +36292,7 @@
     "docstring": null,
     "file": "coordinator.h",
     "file_path": "../data2/raw_data/repos/tensorflow/coordinator.h"
-  }
-][
+  },
   {
     "name": "TEST_P",
     "language": "cpp",
@@ -36778,8 +36404,7 @@
     "docstring": null,
     "file": "c_api_unified_experimental_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_unified_experimental_test.cc"
-  }
-][
+  },
   {
     "name": "_running_from_pip_package",
     "language": "python",
@@ -36789,8 +36414,7 @@
     "is_async": false,
     "file": "api_template_v1.__init__.py",
     "file_path": "../data2/raw_data/repos/tensorflow/api_template_v1.__init__.py"
-  }
-][
+  },
   {
     "name": "CreateTestingEagerContext",
     "language": "cpp",
@@ -36859,8 +36483,7 @@
     "docstring": null,
     "file": "test_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/test_utils.cc"
-  }
-][
+  },
   {
     "name": "use_pjrt_tensor_buffer",
     "language": "c",
@@ -36870,8 +36493,7 @@
     "docstring": null,
     "file": "pjrt_device_context.h",
     "file_path": "../data2/raw_data/repos/tensorflow/pjrt_device_context.h"
-  }
-][
+  },
   {
     "name": "GetProducerCallOpOrNull",
     "language": "cpp",
@@ -36895,8 +36517,7 @@
     "docstring": null,
     "file": "pick_subgraphs.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pick_subgraphs.cc"
-  }
-][
+  },
   {
     "name": "SetDevice",
     "language": "cpp",
@@ -36921,8 +36542,7 @@
     "docstring": null,
     "file": "device_context_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_context_test.cc"
-  }
-][
+  },
   {
     "name": "Insert",
     "language": "cpp",
@@ -36948,8 +36568,7 @@
     "docstring": null,
     "file": "rematerializer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/rematerializer.cc"
-  }
-][
+  },
   {
     "name": "SerializeProto",
     "language": "cpp",
@@ -36973,8 +36592,7 @@
     "docstring": null,
     "file": "fingerprinting_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/fingerprinting_utils.cc"
-  }
-][
+  },
   {
     "name": "GetHardwareRewritePatternsGPU",
     "language": "cpp",
@@ -36986,8 +36604,7 @@
     "docstring": null,
     "file": "device_transform_gpu.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_transform_gpu.cc"
-  }
-][
+  },
   {
     "name": "CreateInputTensor",
     "language": "cpp",
@@ -37016,8 +36633,7 @@
     "docstring": null,
     "file": "device_compiler_test_helper.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compiler_test_helper.cc"
-  }
-][
+  },
   {
     "name": "ParseSavedObjectGraph",
     "language": "cpp",
@@ -37029,8 +36645,7 @@
     "docstring": null,
     "file": "object_graph_traversal_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/object_graph_traversal_test.cc"
-  }
-][
+  },
   {
     "name": "MlirToFlatBufferFileTranslateFunction",
     "language": "cpp",
@@ -37073,8 +36688,7 @@
     "docstring": null,
     "file": "flatbuffer_translate.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_translate.cc"
-  }
-][
+  },
   {
     "name": "MoveOutgoingEdges",
     "language": "cpp",
@@ -37242,8 +36856,7 @@
     "docstring": null,
     "file": "build_xla_ops_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/build_xla_ops_pass.cc"
-  }
-][
+  },
   {
     "name": "RequestXlaDevicesCreation",
     "language": "cpp",
@@ -37263,8 +36876,7 @@
     "docstring": null,
     "file": "defs.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/defs.cc"
-  }
-][
+  },
   {
     "name": "failableRewrite",
     "language": "cpp",
@@ -37303,8 +36915,7 @@
     "docstring": null,
     "file": "ConvertSimQuant.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/ConvertSimQuant.cc"
-  }
-][
+  },
   {
     "name": "TransferFileContents",
     "language": "cpp",
@@ -37331,8 +36942,7 @@
     "docstring": null,
     "file": "posix_filesystem_helper.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/posix_filesystem_helper.cc"
-  }
-][
+  },
   {
     "name": "AddTFToStablehloPasses",
     "language": "cpp",
@@ -37371,8 +36981,7 @@
     "docstring": null,
     "file": "transforms.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/transforms.cc"
-  }
-][
+  },
   {
     "name": "GetName",
     "language": "c",
@@ -37402,8 +37011,7 @@
     "docstring": null,
     "file": "canonicalize_boundary_value_pass.h",
     "file_path": "../data2/raw_data/repos/tensorflow/canonicalize_boundary_value_pass.h"
-  }
-][
+  },
   {
     "name": "CopyFileContents",
     "language": "cpp",
@@ -37417,8 +37025,7 @@
     "docstring": null,
     "file": "copy_file_linux.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/copy_file_linux.cc"
-  }
-][
+  },
   {
     "name": "MakeFingerprintJson",
     "language": "cpp",
@@ -37430,8 +37037,7 @@
     "docstring": null,
     "file": "metrics.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/metrics.cc"
-  }
-][
+  },
   {
     "name": "InitializeStateForValue",
     "language": "cpp",
@@ -37516,8 +37122,7 @@
     "docstring": null,
     "file": "quantization_driver.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_driver.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -38160,8 +37765,7 @@
     "docstring": null,
     "file": "flatbuffer_operator.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_operator.cc"
-  }
-][
+  },
   {
     "name": "Identity",
     "language": "cpp",
@@ -38259,8 +37863,7 @@
     "docstring": null,
     "file": "array_ops.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/array_ops.cc"
-  }
-][
+  },
   {
     "name": "TF_InitGraph",
     "language": "c",
@@ -38273,8 +37876,7 @@
     "docstring": null,
     "file": "grappler.h",
     "file_path": "../data2/raw_data/repos/tensorflow/grappler.h"
-  }
-][
+  },
   {
     "name": "ConvertJaxToTFLiteFlatBuffer",
     "language": "cpp",
@@ -38289,8 +37891,7 @@
     "docstring": null,
     "file": "jax_to_tfl_flatbuffer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/jax_to_tfl_flatbuffer.cc"
-  }
-][
+  },
   {
     "name": "GetExecutableBuildOptions",
     "language": "cpp",
@@ -38316,8 +37917,7 @@
     "docstring": null,
     "file": "device_compiler_client.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compiler_client.cc"
-  }
-][
+  },
   {
     "name": "CreateScalarTensorHandle",
     "language": "cpp",
@@ -38369,8 +37969,7 @@
     "docstring": null,
     "file": "variable_ops_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/variable_ops_test.cc"
-  }
-][
+  },
   {
     "name": "CreatePerDeviceValues",
     "language": "c",
@@ -38415,8 +38014,7 @@
     "docstring": null,
     "file": "parallel_device_testlib.h",
     "file_path": "../data2/raw_data/repos/tensorflow/parallel_device_testlib.h"
-  }
-][
+  },
   {
     "name": "GetI64ElementsAttr",
     "language": "cpp",
@@ -38500,8 +38098,7 @@
     "docstring": null,
     "file": "gather.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/gather.cc"
-  }
-][
+  },
   {
     "name": "identity_shape_fn",
     "language": "c",
@@ -38514,8 +38111,7 @@
     "docstring": null,
     "file": "ops.h",
     "file_path": "../data2/raw_data/repos/tensorflow/ops.h"
-  }
-][
+  },
   {
     "name": "CopyFileContents",
     "language": "cpp",
@@ -38529,8 +38125,7 @@
     "docstring": null,
     "file": "copy_file_portable.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/copy_file_portable.cc"
-  }
-][
+  },
   {
     "name": "LastOp",
     "language": "cpp",
@@ -38555,8 +38150,7 @@
     "docstring": null,
     "file": "scope_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/scope_test.cc"
-  }
-][
+  },
   {
     "name": "ExportModule",
     "language": "cpp",
@@ -38618,8 +38212,7 @@
     "docstring": null,
     "file": "odml_to_stablehlo.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/odml_to_stablehlo.cc"
-  }
-][
+  },
   {
     "name": "GradForUnaryCwise",
     "language": "cpp",
@@ -38738,8 +38331,7 @@
     "docstring": null,
     "file": "mark_for_compilation_pass_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/mark_for_compilation_pass_test.cc"
-  }
-][
+  },
   {
     "name": "AddGraphDefToFunctionLibrary",
     "language": "cpp",
@@ -38859,8 +38451,7 @@
     "docstring": null,
     "file": "encapsulate_subgraphs_pass_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/encapsulate_subgraphs_pass_test.cc"
-  }
-][
+  },
   {
     "name": "Linear",
     "language": "cpp",
@@ -38888,8 +38479,7 @@
     "docstring": null,
     "file": "cc_ops_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cc_ops_test.cc"
-  }
-][
+  },
   {
     "name": "ReadSavedModel",
     "language": "cpp",
@@ -38929,8 +38519,7 @@
     "docstring": null,
     "file": "internal_api.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/internal_api.cc"
-  }
-][
+  },
   {
     "name": "CreateSubgraphTouchingRefVar",
     "language": "cpp",
@@ -39016,8 +38605,7 @@
     "docstring": null,
     "file": "xla_cluster_util_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_cluster_util_test.cc"
-  }
-][
+  },
   {
     "name": "plugin_memory_free",
     "language": "cpp",
@@ -39410,8 +38998,7 @@
     "docstring": null,
     "file": "posix_filesystem.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/posix_filesystem.cc"
-  }
-][
+  },
   {
     "name": "SetDevice",
     "language": "cpp",
@@ -39423,8 +39010,7 @@
     "docstring": null,
     "file": "xla_host_send_recv_device_context_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_host_send_recv_device_context_test.cc"
-  }
-][
+  },
   {
     "name": "TestRemoteExecuteSilentCopiesFunc",
     "language": "cpp",
@@ -39440,8 +39026,7 @@
     "docstring": null,
     "file": "c_api_remote_function_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_remote_function_test.cc"
-  }
-][
+  },
   {
     "name": "parse_args",
     "language": "python",
@@ -39513,8 +39098,7 @@
     "is_async": false,
     "file": "extract_resultstore_links.py",
     "file_path": "../data2/raw_data/repos/tensorflow/extract_resultstore_links.py"
-  }
-][
+  },
   {
     "name": "Canonicalize",
     "language": "c",
@@ -39526,8 +39110,7 @@
     "docstring": null,
     "file": "device_compilation_cluster_signature.h",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compilation_cluster_signature.h"
-  }
-][
+  },
   {
     "name": "CloneConstantsForBetterClustering",
     "language": "cpp",
@@ -39540,8 +39123,7 @@
     "docstring": null,
     "file": "clone_constants_for_better_clustering_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/clone_constants_for_better_clustering_test.cc"
-  }
-][
+  },
   {
     "name": "ToOutput",
     "language": "cpp",
@@ -39625,8 +39207,7 @@
     "docstring": null,
     "file": "while_gradients.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/while_gradients.cc"
-  }
-][
+  },
   {
     "name": "GetName",
     "language": "c",
@@ -39656,8 +39237,7 @@
     "docstring": null,
     "file": "cleanup_optimization_barrier_pass.h",
     "file_path": "../data2/raw_data/repos/tensorflow/cleanup_optimization_barrier_pass.h"
-  }
-][
+  },
   {
     "name": "ConvertDotToDotGeneral",
     "language": "cpp",
@@ -39748,8 +39328,7 @@
     "docstring": null,
     "file": "optimize.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/optimize.cc"
-  }
-][
+  },
   {
     "name": "AddExportTFLPass",
     "language": "cpp",
@@ -39762,8 +39341,7 @@
     "docstring": null,
     "file": "tac_module.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tac_module.cc"
-  }
-][
+  },
   {
     "name": "ReplaceTaskInServerDef",
     "language": "cpp",
@@ -39877,8 +39455,7 @@
     "docstring": null,
     "file": "c_api_cluster_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_cluster_test.cc"
-  }
-][
+  },
   {
     "name": "SetImporter",
     "language": "c",
@@ -39902,8 +39479,7 @@
     "docstring": null,
     "file": "tac_module.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tac_module.h"
-  }
-][
+  },
   {
     "name": "Set_TF_Status_from_Status",
     "language": "cpp",
@@ -39928,8 +39504,7 @@
     "docstring": null,
     "file": "tf_status_helper.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_status_helper.cc"
-  }
-][
+  },
   {
     "name": "GetOrInsertOpCodeIndex",
     "language": "cpp",
@@ -39986,8 +39561,7 @@
     "docstring": null,
     "file": "model_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/model_utils.cc"
-  }
-][
+  },
   {
     "name": "api_version",
     "language": "c",
@@ -40291,8 +39865,7 @@
     "docstring": null,
     "file": "conversion_metadata_generated.h",
     "file_path": "../data2/raw_data/repos/tensorflow/conversion_metadata_generated.h"
-  }
-][
+  },
   {
     "name": "AnalyzeDeadness",
     "language": "cpp",
@@ -40420,8 +39993,7 @@
     "docstring": null,
     "file": "deadness_analysis_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/deadness_analysis_test.cc"
-  }
-][
+  },
   {
     "name": "classof",
     "language": "c",
@@ -40433,8 +40005,7 @@
     "docstring": null,
     "file": "immediate_execution_operation.h",
     "file_path": "../data2/raw_data/repos/tensorflow/immediate_execution_operation.h"
-  }
-][
+  },
   {
     "name": "SomeThreadFunc",
     "language": "cpp",
@@ -40459,8 +40030,7 @@
     "docstring": null,
     "file": "env_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/env_test.cc"
-  }
-][
+  },
   {
     "name": "CompileToExecutable",
     "language": "cpp",
@@ -40489,8 +40059,7 @@
     "docstring": null,
     "file": "xla_launch_util_gpu_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_launch_util_gpu_test.cc"
-  }
-][
+  },
   {
     "name": "Save",
     "language": "cpp",
@@ -40502,8 +40071,7 @@
     "docstring": null,
     "file": "save.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/save.cc"
-  }
-][
+  },
   {
     "name": "InitializeStateForValue",
     "language": "cpp",
@@ -40612,8 +40180,7 @@
     "docstring": null,
     "file": "tfl_quantization_driver.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tfl_quantization_driver.cc"
-  }
-][
+  },
   {
     "name": "IsQuantizableResult",
     "language": "cpp",
@@ -40626,8 +40193,7 @@
     "docstring": null,
     "file": "import_quant_stats_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/import_quant_stats_pass.cc"
-  }
-][
+  },
   {
     "name": "ValidAttr",
     "language": "cpp",
@@ -40677,8 +40243,7 @@
     "docstring": null,
     "file": "flatbuffer_conversions_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_conversions_test.cc"
-  }
-][
+  },
   {
     "name": "ReadCheckpointObjectGraph",
     "language": "cpp",
@@ -40703,8 +40268,7 @@
     "docstring": null,
     "file": "bundle_v2.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/bundle_v2.cc"
-  }
-][
+  },
   {
     "name": "StaticallyRegisterLocalFilesystems",
     "language": "cpp",
@@ -40714,8 +40278,7 @@
     "docstring": null,
     "file": "posix_filesystem_static.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/posix_filesystem_static.cc"
-  }
-][
+  },
   {
     "name": "MakeData",
     "language": "cpp",
@@ -40899,8 +40462,7 @@
     "docstring": null,
     "file": "image_grad_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/image_grad_test.cc"
-  }
-][
+  },
   {
     "name": "_gen_uninitialized_variable",
     "language": "python",
@@ -41036,8 +40598,7 @@
     "is_async": false,
     "file": "gen_saved_models.py",
     "file_path": "../data2/raw_data/repos/tensorflow/gen_saved_models.py"
-  }
-][
+  },
   {
     "name": "ByteSwapSerializedModel",
     "language": "c",
@@ -41145,8 +40706,7 @@
     "docstring": null,
     "file": "model_builder_base.h",
     "file_path": "../data2/raw_data/repos/tensorflow/model_builder_base.h"
-  }
-][
+  },
   {
     "name": "TestHandleFromDLPack",
     "language": "cpp",
@@ -41161,8 +40721,7 @@
     "docstring": null,
     "file": "dlpack_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/dlpack_test.cc"
-  }
-][
+  },
   {
     "name": "getFunction",
     "language": "c",
@@ -41172,8 +40731,7 @@
     "docstring": null,
     "file": "tac_pass.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tac_pass.h"
-  }
-][
+  },
   {
     "name": "Insert",
     "language": "c",
@@ -41256,8 +40814,7 @@
     "docstring": null,
     "file": "expiring_lru_cache.h",
     "file_path": "../data2/raw_data/repos/tensorflow/expiring_lru_cache.h"
-  }
-][
+  },
   {
     "name": "FuzzLoadSavedModel",
     "language": "cpp",
@@ -41269,8 +40826,7 @@
     "docstring": null,
     "file": "saved_model_fuzz.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/saved_model_fuzz.cc"
-  }
-][
+  },
   {
     "name": "GetConstructorDecl",
     "language": "cpp",
@@ -41433,8 +40989,7 @@
     "docstring": null,
     "file": "cc_op_gen.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/cc_op_gen.cc"
-  }
-][
+  },
   {
     "name": "getKind",
     "language": "c",
@@ -41444,8 +40999,7 @@
     "docstring": null,
     "file": "abstract_operation.h",
     "file_path": "../data2/raw_data/repos/tensorflow/abstract_operation.h"
-  }
-][
+  },
   {
     "name": "DebugString",
     "language": "c",
@@ -41455,8 +41009,7 @@
     "docstring": null,
     "file": "device_compilation_profiler.h",
     "file_path": "../data2/raw_data/repos/tensorflow/device_compilation_profiler.h"
-  }
-][
+  },
   {
     "name": "PackScalarIndices",
     "language": "cpp",
@@ -41521,8 +41074,7 @@
     "docstring": null,
     "file": "slice.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/slice.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "c",
@@ -41534,8 +41086,7 @@
     "docstring": null,
     "file": "dilated_conv.h",
     "file_path": "../data2/raw_data/repos/tensorflow/dilated_conv.h"
-  }
-][
+  },
   {
     "name": "IsPersistent",
     "language": "c",
@@ -41622,8 +41173,7 @@
     "docstring": null,
     "file": "tape.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tape.h"
-  }
-][
+  },
   {
     "name": "ResizeNearestNeighborGradHelper",
     "language": "cpp",
@@ -41698,8 +41248,7 @@
     "docstring": null,
     "file": "image_grad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/image_grad.cc"
-  }
-][
+  },
   {
     "name": "run_tac",
     "language": "python",
@@ -41713,8 +41262,7 @@
     "is_async": false,
     "file": "tac.py",
     "file_path": "../data2/raw_data/repos/tensorflow/tac.py"
-  }
-][
+  },
   {
     "name": "ConvertGraphDefToTFLiteFlatBuffer",
     "language": "cpp",
@@ -41730,8 +41278,7 @@
     "docstring": null,
     "file": "graphdef_to_tfl_flatbuffer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/graphdef_to_tfl_flatbuffer.cc"
-  }
-][
+  },
   {
     "name": "WithOpName",
     "language": "c",
@@ -41755,8 +41302,7 @@
     "docstring": null,
     "file": "scope.h",
     "file_path": "../data2/raw_data/repos/tensorflow/scope.h"
-  }
-][
+  },
   {
     "name": "TF_DeleteStatus",
     "language": "cpp",
@@ -41836,8 +41382,7 @@
     "docstring": null,
     "file": "tf_status.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_status.cc"
-  }
-][
+  },
   {
     "name": "block_size",
     "language": "c",
@@ -41889,8 +41434,7 @@
     "docstring": null,
     "file": "ram_file_block_cache.h",
     "file_path": "../data2/raw_data/repos/tensorflow/ram_file_block_cache.h"
-  }
-][
+  },
   {
     "name": "Const",
     "language": "c",
@@ -41931,8 +41475,7 @@
     "docstring": null,
     "file": "const_op.h",
     "file_path": "../data2/raw_data/repos/tensorflow/const_op.h"
-  }
-][
+  },
   {
     "name": "ExpWithPassThroughGrad",
     "language": "cpp",
@@ -41946,8 +41489,7 @@
     "docstring": null,
     "file": "custom_gradient_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/custom_gradient_test.cc"
-  }
-][
+  },
   {
     "name": "HistogramSummaryOp_Delete",
     "language": "cpp",
@@ -41982,8 +41524,7 @@
     "docstring": null,
     "file": "histogram_summary_op.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/histogram_summary_op.cc"
-  }
-][
+  },
   {
     "name": "ConstantFromSavedConstant",
     "language": "cpp",
@@ -42150,8 +41691,7 @@
     "docstring": null,
     "file": "saved_model_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/saved_model_utils.cc"
-  }
-][
+  },
   {
     "name": "FuncDefWithNumInputsOutputs",
     "language": "cpp",
@@ -42164,8 +41704,7 @@
     "docstring": null,
     "file": "tf_concrete_function_loading_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tf_concrete_function_loading_test.cc"
-  }
-][
+  },
   {
     "name": "MatchReduceToArgMinMaxType2",
     "language": "cpp",
@@ -42284,8 +41823,7 @@
     "docstring": null,
     "file": "reduce.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/reduce.cc"
-  }
-][
+  },
   {
     "name": "HandleInputOutputArraysWithModule",
     "language": "cpp",
@@ -42313,8 +41851,7 @@
     "docstring": null,
     "file": "saved_model_to_tfl_flatbuffer.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/saved_model_to_tfl_flatbuffer.cc"
-  }
-][
+  },
   {
     "name": "ExpectErrorContains",
     "language": "cpp",
@@ -42367,8 +41904,7 @@
     "docstring": null,
     "file": "codegen_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/codegen_test.cc"
-  }
-][
+  },
   {
     "name": "BoolDeallocator",
     "language": "cpp",
@@ -42668,8 +42204,7 @@
     "docstring": null,
     "file": "c_test_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_test_util.cc"
-  }
-][
+  },
   {
     "name": "TF_SetStatusFromGCSStatus",
     "language": "cpp",
@@ -43305,8 +42840,7 @@
     "docstring": null,
     "file": "gcs_filesystem.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/gcs_filesystem.cc"
-  }
-][
+  },
   {
     "name": "DeleterFunction",
     "language": "c",
@@ -43320,8 +42854,7 @@
     "docstring": null,
     "file": "tensor.h",
     "file_path": "../data2/raw_data/repos/tensorflow/tensor.h"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -43334,8 +42867,7 @@
     "docstring": null,
     "file": "quantization_utils_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_utils_test.cc"
-  }
-][
+  },
   {
     "name": "ToString",
     "language": "cpp",
@@ -43676,8 +43208,7 @@
     "docstring": null,
     "file": "c_api_function_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_function_test.cc"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -43690,8 +43221,7 @@
     "docstring": null,
     "file": "tfcompile_main.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tfcompile_main.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -43703,8 +43233,7 @@
     "docstring": null,
     "file": "runtime_shape.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/runtime_shape.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -44134,8 +43663,7 @@
     "docstring": null,
     "file": "quantize_weights_portable.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantize_weights_portable.cc"
-  }
-][
+  },
   {
     "name": "RaiseTargetSubgraphsPass",
     "language": "cpp",
@@ -44162,8 +43690,7 @@
     "docstring": null,
     "file": "raise_target_subgraphs.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/raise_target_subgraphs.cc"
-  }
-][
+  },
   {
     "name": "QuantizeMultiplier",
     "language": "cpp",
@@ -44192,8 +43719,7 @@
     "docstring": null,
     "file": "numerical_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/numerical_utils.cc"
-  }
-][
+  },
   {
     "name": "MyComputeFunc",
     "language": "cpp",
@@ -44318,8 +43844,7 @@
     "docstring": null,
     "file": "kernels_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/kernels_test.cc"
-  }
-][
+  },
   {
     "name": "ToOutputTensor",
     "language": "cpp",
@@ -44408,8 +43933,7 @@
     "docstring": null,
     "file": "while_loop.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/while_loop.cc"
-  }
-][
+  },
   {
     "name": "HasResourceInput",
     "language": "cpp",
@@ -44575,8 +44099,7 @@
     "docstring": null,
     "file": "compilability_check_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/compilability_check_util.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "javascript",
@@ -44598,8 +44121,7 @@
     "docstring": null,
     "file": "create_issue.js",
     "file_path": "../data2/raw_data/repos/tensorflow/create_issue.js"
-  }
-][
+  },
   {
     "name": "AssertGraphDefIsUnclustered",
     "language": "cpp",
@@ -44638,8 +44160,7 @@
     "docstring": null,
     "file": "auto_clustering_test_helper.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/auto_clustering_test_helper.cc"
-  }
-][
+  },
   {
     "name": "HashCheckpointIndexFile",
     "language": "cpp",
@@ -44703,8 +44224,7 @@
     "docstring": null,
     "file": "fingerprinting.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/fingerprinting.cc"
-  }
-][
+  },
   {
     "name": "DefaultPaddedShapeFn",
     "language": "cpp",
@@ -44743,8 +44263,7 @@
     "docstring": null,
     "file": "xla_device.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_device.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "c",
@@ -44910,8 +44429,7 @@
     "docstring": null,
     "file": "runtime_shape.h",
     "file_path": "../data2/raw_data/repos/tensorflow/runtime_shape.h"
-  }
-][
+  },
   {
     "name": "GetInferenceTypeEnum",
     "language": "c",
@@ -45019,8 +44537,7 @@
     "docstring": null,
     "file": "targets.h",
     "file_path": "../data2/raw_data/repos/tensorflow/targets.h"
-  }
-][
+  },
   {
     "name": "EmitDynamicRangeOp",
     "language": "cpp",
@@ -45215,8 +44732,7 @@
     "docstring": null,
     "file": "tflite_op_coverage_spec_getters_gen.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tflite_op_coverage_spec_getters_gen.cc"
-  }
-][
+  },
   {
     "name": "main",
     "language": "cpp",
@@ -45229,8 +44745,7 @@
     "docstring": null,
     "file": "litert_mlir_opt_main.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/litert_mlir_opt_main.cc"
-  }
-][
+  },
   {
     "name": "is_list",
     "language": "c",
@@ -45240,8 +44755,7 @@
     "docstring": null,
     "file": "attr_spec.h",
     "file_path": "../data2/raw_data/repos/tensorflow/attr_spec.h"
-  }
-][
+  },
   {
     "name": "DescribeCycle",
     "language": "cpp",
@@ -45497,8 +45011,7 @@
     "docstring": null,
     "file": "xla_cluster_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_cluster_util.cc"
-  }
-][
+  },
   {
     "name": "for",
     "language": "cpp",
@@ -45510,8 +45023,7 @@
     "docstring": null,
     "file": "controller.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/controller.cc"
-  }
-][
+  },
   {
     "name": "compute",
     "language": "c",
@@ -45537,8 +45049,7 @@
     "docstring": null,
     "file": "c_test.c",
     "file_path": "../data2/raw_data/repos/tensorflow/c_test.c"
-  }
-][
+  },
   {
     "name": "BySize",
     "language": "c",
@@ -45609,8 +45120,7 @@
     "docstring": null,
     "file": "rematerializer.h",
     "file_path": "../data2/raw_data/repos/tensorflow/rematerializer.h"
-  }
-][
+  },
   {
     "name": "CreateGraphOptimizationPassOptions",
     "language": "c",
@@ -45622,8 +45132,7 @@
     "docstring": null,
     "file": "test_util.h",
     "file_path": "../data2/raw_data/repos/tensorflow/test_util.h"
-  }
-][
+  },
   {
     "name": "GetDecomposeFn",
     "language": "c",
@@ -45691,8 +45200,7 @@
     "docstring": null,
     "file": "device_target.h",
     "file_path": "../data2/raw_data/repos/tensorflow/device_target.h"
-  }
-][
+  },
   {
     "name": "GetBuiltinCode",
     "language": "cpp",
@@ -45728,8 +45236,7 @@
     "docstring": null,
     "file": "schema_utils.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/schema_utils.cc"
-  }
-][
+  },
   {
     "name": "ComputeOutSize",
     "language": "c",
@@ -45762,8 +45269,7 @@
     "docstring": null,
     "file": "padding.h",
     "file_path": "../data2/raw_data/repos/tensorflow/padding.h"
-  }
-][
+  },
   {
     "name": "QuantizeMultiplier",
     "language": "cpp",
@@ -45957,8 +45463,7 @@
     "docstring": null,
     "file": "quantization_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_util.cc"
-  }
-][
+  },
   {
     "name": "ValidateTPProfilerRegistrationParams",
     "language": "cpp",
@@ -46006,8 +45511,7 @@
     "docstring": null,
     "file": "pluggable_profiler.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/pluggable_profiler.cc"
-  }
-][
+  },
   {
     "name": "TestGraphDebugInfo.testConcreteFunctionDebugInfo",
     "language": "python",
@@ -46055,8 +45559,7 @@
     "is_async": false,
     "file": "concrete_function_error.py",
     "file_path": "../data2/raw_data/repos/tensorflow/concrete_function_error.py"
-  }
-][
+  },
   {
     "name": "GetSessionOptions",
     "language": "cpp",
@@ -46088,8 +45591,7 @@
     "docstring": null,
     "file": "client_session_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/client_session_test.cc"
-  }
-][
+  },
   {
     "name": "if",
     "language": "cpp",
@@ -46113,8 +45615,7 @@
     "docstring": null,
     "file": "quantization_context.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/quantization_context.cc"
-  }
-][
+  },
   {
     "name": "TestBitcastOp",
     "language": "cpp",
@@ -46141,8 +45642,7 @@
     "docstring": null,
     "file": "bitcast_op_test.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/bitcast_op_test.cc"
-  }
-][
+  },
   {
     "name": "GetFdSizeBytes",
     "language": "cpp",
@@ -46154,8 +45654,7 @@
     "docstring": null,
     "file": "mmap_allocation.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/mmap_allocation.cc"
-  }
-][
+  },
   {
     "name": "NowMicros",
     "language": "cpp",
@@ -46203,8 +45702,7 @@
     "docstring": null,
     "file": "benchmark.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/benchmark.cc"
-  }
-][
+  },
   {
     "name": "AppendToListAttr",
     "language": "cpp",
@@ -46346,8 +45844,7 @@
     "docstring": null,
     "file": "encapsulate_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/encapsulate_util.cc"
-  }
-][
+  },
   {
     "name": "BroadcastMul",
     "language": "cpp",
@@ -46362,8 +45859,7 @@
     "docstring": null,
     "file": "nn_grad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/nn_grad.cc"
-  }
-][
+  },
   {
     "name": "SparsifyModel",
     "language": "cpp",
@@ -46388,8 +45884,7 @@
     "docstring": null,
     "file": "sparsify_model.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/sparsify_model.cc"
-  }
-][
+  },
   {
     "name": "Slice1dHelper",
     "language": "cpp",
@@ -46454,8 +45949,7 @@
     "docstring": null,
     "file": "linalg_grad.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/linalg_grad.cc"
-  }
-][
+  },
   {
     "name": "IsConst",
     "language": "cpp",
@@ -46710,8 +46204,7 @@
     "docstring": null,
     "file": "flatbuffer_export.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/flatbuffer_export.cc"
-  }
-][
+  },
   {
     "name": "SetPjRtCBufferToTensor",
     "language": "cpp",
@@ -46737,8 +46230,7 @@
     "docstring": null,
     "file": "tensor_pjrt_buffer_util.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/tensor_pjrt_buffer_util.cc"
-  }
-][
+  },
   {
     "name": "TF_CreateDir",
     "language": "cpp",
@@ -46959,8 +46451,7 @@
     "docstring": null,
     "file": "env.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/env.cc"
-  }
-][
+  },
   {
     "name": "checkWhetherGraphHasValidStaticLookupTables",
     "language": "cpp",
@@ -46972,8 +46463,7 @@
     "docstring": null,
     "file": "legalize_hashtables.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/legalize_hashtables.cc"
-  }
-][
+  },
   {
     "name": "IsMarkTensorOp",
     "language": "cpp",
@@ -47085,8 +46575,7 @@
     "docstring": null,
     "file": "build_stablehlo_composite_pass.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/build_stablehlo_composite_pass.cc"
-  }
-][
+  },
   {
     "name": "has_shaped_buffer",
     "language": "c",
@@ -47108,8 +46597,7 @@
     "docstring": null,
     "file": "xla_tensor.h",
     "file_path": "../data2/raw_data/repos/tensorflow/xla_tensor.h"
-  }
-][
+  },
   {
     "name": "TFE_OpReset",
     "language": "cpp",
@@ -47967,8 +47455,7 @@
     "docstring": null,
     "file": "c_api_experimental.cc",
     "file_path": "../data2/raw_data/repos/tensorflow/c_api_experimental.cc"
-  }
-][
+  },
   {
     "name": "AddVariablesFunction",
     "language": "cpp",

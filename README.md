@@ -20,4 +20,4 @@ source traindata_env/bin/activate
 
 ## Requirements:
 
-python3 -m pip install pyyaml requests
+python3 -m pip install pyyaml requests pycparser

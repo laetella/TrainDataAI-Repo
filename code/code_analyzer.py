@@ -354,17 +354,18 @@ def analyze_directory(dir_path: str, functions_path: str) -> List[Dict[str, Any]
                 try:
                     functions = analyze_code_file(file_path)
                     if functions:
-                        if not os.path.exists(functions_path):
-                            with open(functions_path, "w", encoding="utf-8") as f:
-                                json.dump(functions, f, indent=2)
-                        else:
-                            with open(functions_path, "a", encoding="utf-8") as f:
-                                json.dump(functions, f, indent=2)
+                        # if not os.path.exists(functions_path):
+                        #     with open(functions_path, "w", encoding="utf-8") as f:
+                        #         json.dump(functions, f, indent=2)
+                        # else:
+                        #     with open(functions_path, "a", encoding="utf-8") as f:
+                        #         json.dump(functions, f, indent=2)
                         results.extend(functions)
                         print(f"✓ 分析完成: {file_path} ({len(functions)}个函数)")
                 except Exception as e:
                     print(f"✗ 跳过 {file_path}: {str(e)}")
-    
+    with open(functions_path, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2)
     return results
 
 # 以下是对Go和Rust的简单分析函数（可选添加）
