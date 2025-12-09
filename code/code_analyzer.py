@@ -221,7 +221,8 @@ def analyze_cpp_code(content: str) -> List[Dict[str, Any]]:
                     if parts:
                         param_name = parts[-1].strip('*&')  # 去掉指针/引用符号
                         params.append(param_name)
-        docstring = extract_cpp_docstring(content, match.start())
+                        docstring = extract_cpp_docstring(content, match.start())
+                        
         func_info = {
             'name': func_name,
             'language': 'cpp',
@@ -231,8 +232,6 @@ def analyze_cpp_code(content: str) -> List[Dict[str, Any]]:
             'docstring': docstring,
             'code_snippet': remove_cpp_comments(content)# .replace(docstring, "")
         }
-        print("func_info: ", func_info)
-        input()
         functions.append(func_info)
     
     return functions
