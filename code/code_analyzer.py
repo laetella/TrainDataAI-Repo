@@ -239,7 +239,7 @@ def analyze_cpp_code(content: str) -> List[Dict[str, Any]]:
 def remove_cpp_comments(code: str) -> str:
     """移除C++风格注释（行注释// 和块注释/* */）"""
     # 移除行注释（保留换行符）
-    clean = re.sub(r'//.*', '', code)
+    clean = re.sub(r'/*', '', code)
     # 移除块注释（跨行处理）
     clean = re.sub(r'/\*.*?\*/', '', clean, flags=re.DOTALL)
     # 移除孤立* / 符号（避免残留）
@@ -360,7 +360,6 @@ def analyze_code_file(file_path: str) -> List[Dict[str, Any]]:
             func['file'] = os.path.basename(file_path)
             func['file_path'] = file_path
             func['language'] = language
-            func['code_snippet'] = content.replace(func['docstring'],"")
         
         return functions
         
