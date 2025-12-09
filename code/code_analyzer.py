@@ -110,7 +110,7 @@ def analyze_python_code(content: str) -> List[Dict[str, Any]]:
                     'lineno': node.lineno,
                     'docstring': ast.get_docstring(node),
                     'is_async': isinstance(node, ast.AsyncFunctionDef),
-                    'code_snippet': content
+                    'code_snippet': content.replace(ast.get_docstring(node),"")
                 }
                 functions.append(func_info)
                 
@@ -125,7 +125,7 @@ def analyze_python_code(content: str) -> List[Dict[str, Any]]:
                             'lineno': subnode.lineno,
                             'docstring': ast.get_docstring(subnode),
                             'is_async': isinstance(subnode, ast.AsyncFunctionDef),
-                            'code_snippet': content
+                            'code_snippet': content.replace(ast.get_docstring(node), "")
                         }
                         functions.append(func_info)
     except SyntaxError:
@@ -193,7 +193,7 @@ def analyze_java_code(content: str) -> List[Dict[str, Any]]:
             'return_type': return_type,
             'lineno': content[:match.start()].count('\n') + 1,
             'docstring': extract_java_docstring(content, match.start()),
-            'code_snippet': content
+            'code_snippet': content.replace(extract_java_docstring(content, match.start()), "")
         }
         functions.append(func_info)
     
@@ -221,19 +221,30 @@ def analyze_cpp_code(content: str) -> List[Dict[str, Any]]:
                     if parts:
                         param_name = parts[-1].strip('*&')  # 去掉指针/引用符号
                         params.append(param_name)
-        
+        docstring = extract_cpp_docstring(content, match.start())
         func_info = {
             'name': func_name,
             'language': 'cpp',
             'params': params,
             'return_type': return_type,
             'lineno': content[:match.start()].count('\n') + 1,
-            'docstring': extract_cpp_docstring(content, match.start()),
-            'code_snippet': content
+            'docstring': docstring,
+            'code_snippet': remove_cpp_comments(content)# .replace(docstring, "")
         }
+        print("func_info: ", func_info)
+        input()
         functions.append(func_info)
     
     return functions
+
+def remove_cpp_comments(code: str) -> str:
+    """移除C++风格注释（行注释// 和块注释/* */）"""
+    # 移除行注释（保留换行符）
+    clean = re.sub(r'//.*', '', code)
+    # 移除块注释（跨行处理）
+    clean = re.sub(r'/\*.*?\*/', '', clean, flags=re.DOTALL)
+    # 移除孤立* / 符号（避免残留）
+    return clean.replace('* /', '')
 
 def extract_java_docstring(content: str, position: int) -> str:
     """提取Java文档注释"""
@@ -256,18 +267,33 @@ def extract_java_docstring(content: str, position: int) -> str:
 
 def extract_cpp_docstring(content: str, position: int) -> str:
     """提取C++文档注释"""
-    # 支持 // 和 /* */ 注释
-    lines = content[:position].split('\n')
-    doc_lines = []
+    # 提取position之前的所有内容
+    content_before = content[:position]
     
-    for line in reversed(lines[:3]):  # 只检查前3行
-        stripped = line.strip()
-        if stripped.startswith('//'):
-            doc_lines.append(stripped[2:].strip())
-        else:
-            break
-    
-    return '\n'.join(reversed(doc_lines)) if doc_lines else None
+    # 1. 优先处理块注释：从后向前扫描找到最近的/* ... */
+    start_index = content_before.rfind('/*')
+    if start_index != -1:
+        # 查找对应的结束标记
+        end_index = content.find('*/', start_index + 2)
+        if end_index == -1:
+            return None  # 块注释未闭合
+        
+        # 提取原始注释内容（包含/*和*/）
+        block_comment = content[start_index:end_index + 2]
+        
+        # 清理注释内容：移除/*和*/，处理多行格式
+        processed = []
+        lines = block_comment.split('\n')
+        for i, line in enumerate(lines):
+            # 移除行首的/*（仅第一行）和行尾的*/（仅最后一行）
+            if i == 0:
+                line = line.replace('/*', '', 1).lstrip()
+            if i == len(lines) - 1:
+                line = line.replace('*/', '', 1).rstrip()
+            # 移除行首的*和连续空格（兼容Doxygen风格）
+            processed.append(line.lstrip('*').lstrip())
+        
+        return '\n'.join(processed) if processed else None
 
 def analyze_code_by_language(content: str, language: str) -> List[Dict[str, Any]]:
     """根据语言类型调用相应的分析函数"""
@@ -335,7 +361,7 @@ def analyze_code_file(file_path: str) -> List[Dict[str, Any]]:
             func['file'] = os.path.basename(file_path)
             func['file_path'] = file_path
             func['language'] = language
-            func['code_snippet'] = content
+            func['code_snippet'] = content.replace(func['docstring'],"")
         
         return functions
         
@@ -361,12 +387,6 @@ def analyze_directory(dir_path: str, functions_path: str) -> List[Dict[str, Any]
                 try:
                     functions = analyze_code_file(file_path)
                     if functions:
-                        # if not os.path.exists(functions_path):
-                        #     with open(functions_path, "w", encoding="utf-8") as f:
-                        #         json.dump(functions, f, indent=2)
-                        # else:
-                        #     with open(functions_path, "a", encoding="utf-8") as f:
-                        #         json.dump(functions, f, indent=2)
                         results.extend(functions)
                         print(f"✓ 分析完成: {file_path} ({len(functions)}个函数)")
                 except Exception as e:
@@ -374,8 +394,6 @@ def analyze_directory(dir_path: str, functions_path: str) -> List[Dict[str, Any]
     with open(functions_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
     return results
-
-# 以下是对Go和Rust的简单分析函数（可选添加）
 
 def analyze_golang_code(content: str) -> List[Dict[str, Any]]:
     """分析Go代码"""
@@ -455,9 +473,6 @@ if __name__ == '__main__':
     # step 3: analyze code
     dir_path = "../data2/raw_data/repos/tensorflow/"
     functions_path = "../data/analyze_function.json" # 分析函数的结果以json保存下来
-    analyze_directory(dir_path, functions_path)
-    # results = analyze_code_file(file_path)
-    # print(results)
-    # # 示例使用
-    # py_content = "def add(a, b):\n    'sum two numbers'\n    return a+b"
-    # print(extract_functions(py_content, '.py'))
+    results = analyze_directory(dir_path, functions_path)
+    print("code sample: ", results[0])
+    

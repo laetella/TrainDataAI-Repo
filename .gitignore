@@ -6,6 +6,8 @@ __pycache__/
 # data
 # data/
 data2/
+data/training_data.json
+data/analyze_function.json
 
 # C extensions
 *.so
