@@ -1,6 +1,6 @@
 # configs/config.yaml
 github:
-  token: "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"  # 在GitHub生成fine-grained token
+  token: "token"  # 在GitHub生成fine-grained token
 crawl_repos:
   # - "tensorflow/tensorflow"
   - "QwenLM/Qwen"
