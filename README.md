@@ -1,23 +1,112 @@
-# 本地代码仓智能训练数据生成与处理
+# Local Code Repository Intelligent Training Data Generation and Processing
 
-1. 依据本地代码仓的业务流程和规则，自动化生成问答对。不仅要提供问答内容，还需给出原文代码段及推理过程
+## Overview
+This project automates the generation of question-answer pairs based on the business processes and rules of a local code repository. It provides both Q&A content with original code snippets/reasoning processes, and architectural design solutions for specified requirements with detailed reasoning traces.
 
-2. 针对给定需求，生成基于本地代码仓架构的设计方案，并提供解释和推理trace。
+## Features
+1. **Automated Q&A Generation**  
+   Generates Q&A pairs from local code repository business logic, including:
+   - Original code snippets
+   - Step-by-step reasoning processes
+   - Contextual explanations
 
-get data 
+2. **Design Solution Generation**  
+   Creates architecture design solutions for given requirements with:
+   - Detailed technical explanations
+   - Reasoning trace documentation
+   - Repository-specific adaptations
 
-python3 code/repository_crawler.py
+## Getting Started
 
-## 创建环境
+### Prerequisites
+- Python 3.x
+- Virtual Environment (recommended)
+- GitHub Personal Access Token
 
- Create virtual environment
+### Installation
+```bash
+# Clone repository
+git clone <repository-url>
+cd <repository-directory>
 
+# Create virtual environment
 python3 -m venv traindata_env
 
- Activate it (macOS/Linux)
-
+# Activate environment
+# macOS/Linux
 source traindata_env/bin/activate
+# Windows
+traindata_env\Scripts\activate
 
-## Requirements:
-
+# Install dependencies
 python3 -m pip install pyyaml requests pycparser
+```
+###  Data Collection
+```bash
+# Run repository crawler
+python3 code/repository_crawler.py
+```
+# One-Step Execution
+```bash
+python main.py \
+  --config_path "../configs/config.yaml" \
+  --download_url_parent_dir "../data2/raw_data/repos" \
+  --download_url_path "../data/tensorflow.json" \
+  --code_path "../data2/raw_data/repos/tensorflow/" \
+  --functions_path "../data/analyze_function.json" \
+  --training_data_path "../data/training_data.json" \
+  --design_solution_path "../data/design_solution.json"
+```
+### Configuration
+1. **GitHub Token Setup**
+
+Add personal GitHub token in configs/config.yaml:
+```yaml
+github_token: "your_personal_access_token"
+```
+2. **Repository Specification**
+In config.yaml, specify repositories to crawl:
+```yaml
+crawl_repos:
+  - "owner/repo_name"
+  - "organization/project"
+Default prefix: https://api.github.com/repos/
+```
+
+### Usage Workflow
+1. **Repository Crawling**
+
+Configure CONFIG_PATH in repository_crawler.py
+
+Set OUTPUT_DIR for saving URL lists (JSON format)
+
+2. **Code Analysis**
+
+Configure in code_analyzer.py:
+
+```python
+raw_json_path = "path/to/crawled_data.json"
+dir_path = "directory/for/downloaded_code"
+functions_path = "path/to/save/function_analysis.json"
+```
+See docs/project_design.md for format specifications
+
+3. **Q&A Generation**
+
+Configure in question_generator.py:
+
+```python
+code_function_path = "path/to/function_analysis.json"
+training_data_path = "path/to/save/training_data.json"
+```
+4. **Design Solution Generation**
+
+Configure in design_generator.py:
+
+```python
+design_solution_file = "path/to/design_solution.json"
+```
+
+### License
+MIT License - see LICENSE file for details
+
