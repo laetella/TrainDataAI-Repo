@@ -89,7 +89,7 @@ json{
       "与API接口层集成"
     ]
   }
-‘’‘
+```
 
 ### 确保数据多样性和代表性的方法
 
@@ -100,7 +100,7 @@ json{
 
 ## 三、项目目录结构
 
-```
+```yaml
 project_name/
 ├── data2/      # 爬虫爬取到的原始github仓库的代码
 │── data/ 
@@ -131,7 +131,6 @@ project_name/
 3. **代码分析**：运行 `code/code_analyzer.py` 脚本，对爬取到的代码仓库中的文件进行解析，提取函数信息，如函数名、参数、代码段等，分析结果保存到 'data/analyze_function.json'。
 4. **生成问答对**：运行 `code/question_generator.py` 脚本，根据代码分析结果，按照设计好的问题和推理逻辑生成问答对，并保存到 `data/training_data.json` 中。
 5. **生成设计方案**：运行 `code/design_generator.py` 脚本，根据给定的需求，按照设计好的推理逻辑生成设计方案，并保存到 `data/design_solution.json` 中。
-6. **数据处理**：运行 `data/data_utils.py` 脚本中的数据处理函数，对原始问答对数据进行清洗、转换、采样和去重等处理，将处理后的数据保存到 `data/` 目录中。
 
 ## 五、GitHub 操作说明
 

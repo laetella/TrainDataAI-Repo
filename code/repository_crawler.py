@@ -7,10 +7,6 @@ from urllib.error import URLError, HTTPError
 from typing import List, Dict, Any, Optional
 from datetime import datetime
 
-# 配置文件路径常量
-CONFIG_PATH = '../configs/config.yaml'
-OUTPUT_DIR = '../data2/raw_data/repos'
-
 def load_config(config_path: str) -> Dict[str, Any]:
     """加载配置文件并验证结构"""
     try:
@@ -85,18 +81,9 @@ def get_repo_files(repo_owner: str, repo_name: str, token: str, path: str, outpu
                         }, ensure_ascii=False)
                         output_file.write(json_line + '\n')
                         
-                        # files.append({
-                        #     'path': item['path'],
-                        #     'download_url': item['download_url'],
-                        #     'size': item['size']
-                        # })
                     elif item['type'] == 'dir':
                         # 递归处理子目录（传递已打开的文件句柄）
                         get_repo_files(repo_owner, repo_name, token, item['path'], output_file)
-                
-                        # subdir_files = get_repo_files(repo_owner, repo_name, token, item['path'])
-                        # files.extend(subdir_files)
-                
                 # 处理分页
                 link_header = response.headers.get('Link', '')
                 url = None
@@ -115,22 +102,7 @@ def get_repo_files(repo_owner: str, repo_name: str, token: str, path: str, outpu
     
     return files
 
-def save_crawl_result(owner: str, repo_name: str, repo_info: Dict, files: List) -> None:
-    """保存爬取结果到JSON文件"""
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    output_path = os.path.join(OUTPUT_DIR, f'{owner}', f'{repo_name}.json')
-    
-    result = {
-        'repo_info': repo_info,
-        'files': files,
-        'crawl_timestamp': datetime.now().isoformat()
-    }
-    
-    with open(output_path, 'w') as f:
-        json.dump(result, f, indent=2)
-    print(f"Saved {len(files)} files for {repo_name}")
-
-def get_repo_urls():
+def get_repo_urls(CONFIG_PATH, OUTPUT_DIR):
     print("Starting GitHub repository crawler...\n")
     print(f"Using config: {CONFIG_PATH}\n")
     
@@ -155,7 +127,7 @@ def get_repo_urls():
                 repo_info = get_github_repo(repo_url, token)
                 print(f"  Fetched repo info: {repo_info['html_url']}")
                 """保存爬取结果到JSON文件"""
-                os.makedirs(OUTPUT_DIR, exist_ok=True)
+                os.makedirs(os.path.join(OUTPUT_DIR, f'{owner}'), exist_ok=True)
                 output_path = os.path.join(OUTPUT_DIR, f'{owner}', f'{repo_name}.json')
                 # 写入仓库元数据头
                 with open(output_path, 'w', encoding='utf-8') as f:
@@ -169,24 +141,22 @@ def get_repo_urls():
                 with open(output_path, 'a', encoding='utf-8') as f:  # 追加模式
                     get_repo_files(owner, repo_name, token, '', f)
     
-                # # 获取文件列表
-                # files = get_repo_files(owner, repo_name, token)
-                # print(f"  Found {len(files)} files")
-                
-                # # 保存结果
-                # save_crawl_result(owner, repo_name, repo_info, files)
-                
             except Exception as e:
                 print(f"  Error processing {repo_name}: {str(e)}")
                 continue
         
-        print("\nCrawler completed successfully!")
+        print("\nCrawler completed!")
         
     except Exception as e:
         print(f"\nCritical error: {str(e)}")
         sys.exit(1)
 
 if __name__ == '__main__':
+
+    # 配置文件路径常量
+    CONFIG_PATH = '../configs/config.yaml'
+    OUTPUT_DIR = '../data2/raw_data/repos'
+
     # step 1 ： get repo url
-    get_repo_urls()
+    get_repo_urls(CONFIG_PATH, OUTPUT_DIR)
     

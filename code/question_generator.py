@@ -448,193 +448,6 @@ class ReasoningGenerator:
         return chain
 
 
-class EnhancedTrainingDataGenerator:
-    """增强的训练数据生成器（包含推理过程）"""
-    def _create_sample_contexts(self) -> Dict:
-        """创建示例上下文"""
-        return {
-            "function_purpose": {
-                "function_name": "calculate_user_score",
-                "params": ["user_id", "activity_data", "weight_factors"],
-                "keyword": "score",
-                "operation": "加权计算和累加",
-                "return_value": "整数分数",
-                "purpose": "根据用户活动数据计算综合评分"
-            },
-            "parameter_usage": {
-                "param": "weight_factors",
-                "param_type": "字典类型",
-                "usage_context": "各项活动的权重配置",
-                "validation_logic": "检查权重和为1.0",
-                "impact_on_result": "直接影响最终分数计算",
-                "usage_suggestion": "传递格式为{'login': 0.3, 'post': 0.7}的字典"
-            },
-            "code_logic": {
-                "keyword": "for循环",
-                "line": 25,
-                "syntactic_role": "迭代处理",
-                "definition_info": "遍历用户活动列表",
-                "usage_context": "累加各项活动分数",
-                "affected_aspect": "处理效率和内存使用"
-            },
-            "error_handling": {
-                "check_points": "输入验证和异常捕获",
-                "exception_handling": "记录错误日志并返回默认值",
-                "default_behavior": "返回0分",
-                "impact_scope": "仅影响当前用户计算",
-                "improvement_suggestion": "增加更详细的输入验证"
-            },
-            "optimization": {
-                "time_complexity": "O(n)",
-                "memory_usage": "O(1)",
-                "bottleneck": "数据库查询次数过多",
-                "optimization_suggestions": "批量查询和结果缓存",
-                "expected_improvement": "性能提升30%"
-            }
-        }
-    
-    def generate_complete_training_samples(self) -> List[Dict]:
-        """生成完整的训练样本（包含推理过程）"""
-        
-        questions = [
-            # function_purpose 问题
-            {
-                "question": "这个calculate_user_score函数是做什么的？",
-                "type": "function_purpose",
-                "context": self.sample_contexts["function_purpose"]
-            },
-            {
-                "question": "请解释calculate_user_score函数的功能",
-                "type": "function_purpose", 
-                "context": self.sample_contexts["function_purpose"]
-            },
-            
-            # parameter_usage 问题
-            {
-                "question": "calculate_user_score函数的weight_factors参数有什么作用？",
-                "type": "parameter_usage",
-                "context": self.sample_contexts["parameter_usage"]
-            },
-            {
-                "question": "参数 weight_factors 的取值范围是什么？",
-                "type": "parameter_usage",
-                "context": self.sample_contexts["parameter_usage"]
-            },
-            
-            # code_logic 问题
-            {
-                "question": "这段代码中的 for循环 有什么作用？",
-                "type": "code_logic", 
-                "context": self.sample_contexts["code_logic"]
-            },
-            {
-                "question": "循环结构在这里的作用是什么？",
-                "type": "code_logic",
-                "context": self.sample_contexts["code_logic"]
-            },
-            
-            # error_handling 问题
-            {
-                "question": "如果输入为空值会发生什么？",
-                "type": "error_handling",
-                "context": self.sample_contexts["error_handling"]
-            },
-            {
-                "question": "当输入非法参数时会有哪些表现？",
-                "type": "error_handling",
-                "context": self.sample_contexts["error_handling"]
-            },
-            
-            # optimization 问题
-            {
-                "question": "这段代码在性能上有哪些优化空间？",
-                "type": "optimization", 
-                "context": self.sample_contexts["optimization"]
-            },
-            {
-                "question": "如何减少这段代码的内存占用？",
-                "type": "optimization",
-                "context": self.sample_contexts["optimization"]
-            }
-        ]
-        
-        training_samples = []
-        
-        for q in questions:
-            # 生成推理过程
-            reasoning_data = self.reasoning_generator.generate_reasoning_trace(
-                q["type"],
-                q["question"],
-                q["context"]
-            )
-            
-            # 生成对应的答案
-            answer = self._generate_answer(q["question"], q["type"], q["context"])
-            
-            # 构建完整训练样本
-            sample = {
-                "instruction": "请根据代码逻辑分析问题，提供详细的推理过程和答案",
-                "input": q["question"],
-                "output": answer,
-                "metadata": {
-                    "question_type": q["type"],
-                    "context": q["context"]
-                },
-                "reasoning": reasoning_data
-            }
-            
-            training_samples.append(sample)
-        
-        return training_samples
-    
-    def _generate_answer(self, question: str, question_type: str, context: Dict) -> str:
-        """生成答案"""
-        
-        answers = {
-            "function_purpose": {
-                "这个calculate_user_score函数是做什么的？": 
-                    "calculate_user_score函数主要用于根据用户的活动数据计算综合评分。它接收用户ID、活动数据和权重因子作为输入，通过对各项活动进行加权计算，最终返回一个整数形式的用户评分。该函数常用于用户活跃度评估和个性化推荐场景。",
-                
-                "请解释calculate_user_score函数的功能":
-                    "calculate_user_score函数的功能可以分解为以下几个部分：\n1. 输入验证：检查用户ID有效性、活动数据格式和权重因子配置\n2. 分数计算：按照权重因子对各项活动数据进行加权计算\n3. 结果处理：将计算结果归一化到指定范围\n4. 返回结果：输出最终的评分结果\n\n该函数的设计考虑了可扩展性，便于添加新的活动类型或调整计算策略。"
-            },
-            "parameter_usage": {
-                "calculate_user_score函数的weight_factors参数有什么作用？":
-                    "weight_factors参数是一个字典类型的参数，用于指定各项活动在总分计算中的权重比例。它的主要作用包括：\n\n1. 权重配置：定义如{'login': 0.3, 'post': 0.5, 'comment': 0.2}的权重分配\n2. 计算指导：指导分数计算算法如何加权各项活动\n3. 灵活性：允许根据不同场景调整评分策略\n\n需要注意的是，权重因子的总和应为1.0，否则需要进行归一化处理。",
-                
-                "参数 weight_factors 的取值范围是什么？":
-                    "weight_factors参数的取值范围要求如下：\n\n1. 键范围：必须是系统中定义的活动类型，如'login'、'post'、'comment'等\n2. 值范围：每个权重值应该是0到1之间的浮点数\n3. 总和要求：所有权重值的总和理论上应为1.0\n4. 特殊处理：如果总和不为1.0，系统会自动进行归一化处理\n\n示例有效值：{'login': 0.3, 'post': 0.4, 'comment': 0.3}"
-            },
-            "code_logic": {
-                "这段代码中的 for循环 有什么作用？":
-                    "代码中的for循环主要作用如下：\n\n1. 迭代处理：遍历用户的所有活动记录列表\n2. 分数累加：对每条活动记录，根据其类型和权重计算分数并累加\n3. 数据聚合：将分散的活动数据聚合成一个总分\n4. 条件检查：在循环中可以检查每项活动的有效性\n\n循环的优化建议：对于大量数据，可以考虑分批处理或使用向量化计算。",
-                
-                "循环结构在这里的作用是什么？":
-                    "这里的循环结构承担多个重要角色：\n\n1. 遍历功能：顺序处理用户活动列表中的每个元素\n2. 计算核心：执行分数计算的主要逻辑单元\n3. 状态维护：在迭代过程中维护累加器和状态变量\n4. 异常隔离：单次循环失败不会影响其他记录的处理\n\n循环的设计考虑了性能和可读性的平衡，是算法的关键组成部分。"
-            },
-            "error_handling": {
-                "如果输入为空值会发生什么？":
-                    "当输入为空值时，代码会按照以下流程处理：\n\n1. 检查阶段：在函数入口处验证输入参数\n2. 处理逻辑：如果user_id为空，记录警告日志并返回默认分数0\n3. 容错机制：如果activity_data为空列表，视为用户无活动，返回基础分\n4. 权重缺失：如果weight_factors为空，使用默认权重配置\n\n这样的设计确保了系统的健壮性，避免因空值导致程序崩溃。",
-                
-                "当输入非法参数时会有哪些表现？":
-                    "对于非法参数输入，系统会有以下表现：\n\n1. 类型错误：如果参数类型不正确，会抛出TypeError异常\n2. 值域异常：如果参数值超出允许范围，会返回错误码和提示信息\n3. 格式问题：如果JSON格式不正确，会尝试修复或返回解析失败\n4. 记录日志：所有非法参数都会记录到系统日志中，便于调试\n\n系统采用防御性编程，尽量从错误中恢复并提供有意义的反馈。"
-            },
-            "optimization": {
-                "这段代码在性能上有哪些优化空间？":
-                    "代码的性能优化空间主要包括：\n\n1. 算法优化：当前O(n)时间复杂度可以接受，但可以考虑并行计算\n2. 内存使用：减少中间变量的创建，使用生成器替代列表\n3. I/O优化：合并数据库查询，减少查询次数\n4. 缓存策略：对频繁计算的用户分数进行缓存\n5. 批处理：支持批量用户计算，减少函数调用开销\n\n通过这些优化，预期可以将性能提升30%以上。",
-                
-                "如何减少这段代码的内存占用？":
-                    "减少内存占用的方法包括：\n\n1. 使用迭代器：用itertools替代列表操作\n2. 流式处理：逐个处理记录而不是一次性加载所有数据\n3. 数据压缩：对中间结果使用更紧凑的数据结构\n4. 内存复用：重用对象而不是频繁创建新对象\n5. 延迟计算：只在需要时才计算相关数据\n\n特别要注意避免在循环中创建大量临时对象。"
-            }
-        }
-        
-        # 返回具体答案，如果没有匹配则返回通用答案
-        if question_type in answers and question in answers[question_type]:
-            return answers[question_type][question]
-        else:
-            return f"根据代码分析，{question} 的答案是：该部分代码实现了特定业务逻辑，需要根据具体上下文进行分析和处理。"
-
-
 class QAPairGenerator:
     """问答对生成器"""
     
@@ -688,20 +501,10 @@ class QAPairGenerator:
         code_context['parameter']= params
         
         # 1. 函数目的问答
-        # for template in self.qa_templates['function_purpose']:
-            # question = template.format(function_name=func_name)
         qa_list = self._generate_function_purpose_answer(func, code_context)
         qa_pairs.extend(qa_list)
-            # qa_pairs.append({
-            #     'question': question,
-            #     'answer': answer,
-            #     'type': 'function_purpose',
-            #     'context': {'function': func_name},
-            #     'difficulty': 'easy'
-            # })
-        
-        # 2. 参数相关问答
-        # 2. 生成参数使用QA pairs（最多2个参数）
+           
+        # 2. 参数相关问答 生成参数使用QA pairs（最多2个参数）
         for param in params:  
             qa_pairs.extend(self._generate_parameter_usage_qa(func, param, code_context))
         
@@ -717,7 +520,8 @@ class QAPairGenerator:
                     'answer': answer,
                     'type': 'parameter_usage',
                     'context': {'function': func_name, 'parameter': param},
-                'difficulty': 'medium'
+                    'code_snippet': func.get('code_snippet', "null"),
+                    'difficulty': 'medium'
                 })
         
         # 3. 使用示例问答
@@ -729,6 +533,7 @@ class QAPairGenerator:
                 'answer': answer,
                 'type': 'usage_example',
                 'context': {'function': func_name},
+                'code_snippet': func.get('code_snippet', "null"),
                 'difficulty': 'medium'
             })
         # 代码逻辑问题
@@ -738,6 +543,7 @@ class QAPairGenerator:
                 'answer': "循环结构用于处理重复逻辑或遍历数据集合",
                 'category': 'code_logic',
                 'context': {'function': func_name},
+                'code_snippet': func.get('code_snippet', "null"),
                 'difficulty': 'medium'
             })
         
@@ -747,6 +553,7 @@ class QAPairGenerator:
             'answer': "需要添加输入验证和异常处理机制",
             'category': 'error_handling',
             'context': {'function': func_name},
+            'code_snippet': func.get('code_snippet', "null"),
             'difficulty': 'hard'
         })
         
@@ -757,6 +564,7 @@ class QAPairGenerator:
                 'answer': "可以考虑使用更高效的数据结构或算法",
                 'category': 'optimization',
                 'context': {'function': func_name},
+                'code_snippet': func.get('code_snippet', "null"),
                 'difficulty': 'hard'
             })
         
@@ -790,20 +598,11 @@ class QAPairGenerator:
                 'difficulty': 'easy',
                 'generated_at': datetime.now().isoformat()
             }
-            
+            # print("qa_pair: ", qa_pair)
+            # input()
             qa_list.append(qa_pair)
             # print("qa list size: ", len(qa_list))
         return qa_list
-        # func_name = func.get('name', '')
-        # params = func.get('params', [])
-        
-        # # 根据函数名猜测功能
-        # purpose_guess = self._guess_function_purpose(func_name)
-        
-        # if func.get('docstring'):
-        #     return f"{func_name}函数用于{purpose_guess}。文档说明：{func.get('docstring')[:100]}..."
-        # else:
-        #     return f"{func_name}函数接收{len(params)}个参数，用于{purpose_guess}"
     
     def _generate_parameter_usage_qa(self, func_info: Dict, param: str, code_context: Dict) -> List[Dict]:
         """生成参数使用相关的QA pairs"""
@@ -1074,7 +873,12 @@ if __name__ == "__main__":
     with open(training_data_path, 'w', encoding='utf-8') as f:
         json.dump(dataset, f, ensure_ascii=False, indent=2)
     
-    print(f"✓ 已生成 {len(dataset)} 个训练样本")
-    print(f"✓ 已生成 {dataset['metadata']['total_qa_pairs']} 个问答对")
-    print(f"✓ 训练数据已保存到: {training_data_path}")
+    print(f"✓ Generated {len(dataset)} training  samples")
+    print(f"✓ Generated {dataset['metadata']['total_qa_pairs']} Question-Answer pairs")
+    print(f"✓ Training data saving in: {training_data_path}")
+
+    # training_data = json.load(open(training_data_path, 'r')) 
+    # for data in training_data:
+    #     print(data)
+    #     input()
     

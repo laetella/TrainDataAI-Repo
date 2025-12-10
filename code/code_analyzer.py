@@ -465,9 +465,9 @@ def analyze_rust_code(content: str) -> List[Dict[str, Any]]:
     return functions
 
 if __name__ == '__main__':
-    # # step 2 : from urls get function
-    # raw_json_path = "../data2/raw_data/repos/tensorflow/tensorflow.json"
-    # get_functions(raw_json_path)
+    # step 2 : from urls get function
+    download_url_path = "../data2/raw_data/repos/tensorflow/tensorflow.json"
+    get_functions(download_url_path)
     # step 3: analyze code
     dir_path = "../data2/raw_data/repos/tensorflow/"
     functions_path = "../data/analyze_function.json" # 分析函数的结果以json保存下来
