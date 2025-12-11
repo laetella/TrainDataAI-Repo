@@ -839,8 +839,6 @@ class TrainingDataGenerator:
             # input()
             qa_pairs.extend(self.qa_generator.generate_from_function(code_file))
             
-            # # 从文件结构生成问答
-            # qa_pairs.extend(self.qa_generator.generate_from_file_structure(code_file))
         print("generated %d qa_pairs! "%(len(qa_pairs)))
         
         # 4. 组装最终数据集

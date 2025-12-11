@@ -154,9 +154,9 @@ def get_repo_urls(CONFIG_PATH, OUTPUT_DIR):
 if __name__ == '__main__':
 
     # 配置文件路径常量
-    CONFIG_PATH = '../configs/config.yaml'
-    OUTPUT_DIR = '../data2/raw_data/repos'
+    config_path = '../configs/config.yaml'
+    download_url_parent_dir = '../data2/raw_data/repos'
 
     # step 1 ： get repo url
-    get_repo_urls(CONFIG_PATH, OUTPUT_DIR)
+    get_repo_urls(config_path, download_url_parent_dir)
     
